@@ -78,9 +78,6 @@ Wire Wire Line
 	3150 2800 3550 2800
 Wire Wire Line
 	3550 2900 3550 2800
-Connection ~ 3550 2800
-Wire Wire Line
-	3550 2800 4700 2800
 Text HLabel 5000 2150 1    50   Input ~ 0
 5V
 Wire Wire Line
@@ -100,7 +97,7 @@ Text HLabel 4700 2600 0    50   Input ~ 0
 Triangle_wave
 Text Notes 5150 2550 0    50   ~ 0
 square wave - PWM output
-Text Notes 3650 3000 0    50   ~ 0
+Text Notes 3650 3550 0    50   ~ 0
 add bandpass filter for\n10h to 40khz
 $Comp
 L Main_Library:U_TC4427M_Microchip U?
@@ -287,4 +284,85 @@ Wire Wire Line
 	8700 2650 8700 2800
 Wire Wire Line
 	5300 2700 6250 2700
+$Comp
+L Main_Library:R_10K_0603 R?
+U 1 1 616DB073
+P 4250 2800
+F 0 "R?" V 4084 2800 39  0000 C CNN
+F 1 "R_10K_0603" H 4200 3350 39  0001 C CNN
+F 2 "Main_LIB:R_0603" H 4250 3300 39  0001 C CNN
+F 3 "" H 4200 2950 39  0001 C CNN
+F 4 "10K" V 4159 2800 39  0000 C CNN "Waarde"
+F 5 "YAG1236CT-ND" H 4250 3400 39  0001 C CNN "Digi-key"
+	1    4250 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L Main_Library:R_10K_0603 R?
+U 1 1 616DCA56
+P 4100 2950
+F 0 "R?" V 3934 2950 39  0000 C CNN
+F 1 "R_10K_0603" H 4050 3500 39  0001 C CNN
+F 2 "Main_LIB:R_0603" H 4100 3450 39  0001 C CNN
+F 3 "" H 4050 3100 39  0001 C CNN
+F 4 "10K" V 4009 2950 39  0000 C CNN "Waarde"
+F 5 "YAG1236CT-ND" H 4100 3550 39  0001 C CNN "Digi-key"
+	1    4100 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Main_Library:GND #GND?
+U 1 1 616DD53E
+P 4100 3100
+F 0 "#GND?" H 3940 3080 50  0001 C CNN
+F 1 "GND" H 3940 3080 50  0001 C CNN
+F 2 "" H 4010 3040 50  0001 C CNN
+F 3 "" H 4010 3040 50  0001 C CNN
+	1    4100 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Main_Library:C_390pF_0603_50V C?
+U 1 1 616E0308
+P 4400 2950
+F 0 "C?" H 4478 2988 39  0000 L CNN
+F 1 "C_390pF_0603_50V" H 4400 3200 39  0001 C CNN
+F 2 "MAIN_PCB_LIB:C_0603" H 4450 3300 39  0001 C CNN
+F 3 "" H 4300 3000 39  0001 C CNN
+F 4 "390pF" H 4478 2913 39  0000 L CNN "Waarde"
+F 5 "399-1074-1-ND" H 4400 3250 39  0001 C CNN "Digi-Key"
+	1    4400 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Main_Library:GND #GND?
+U 1 1 616E0EA2
+P 4400 3100
+F 0 "#GND?" H 4240 3080 50  0001 C CNN
+F 1 "GND" H 4240 3080 50  0001 C CNN
+F 2 "" H 4310 3040 50  0001 C CNN
+F 3 "" H 4310 3040 50  0001 C CNN
+	1    4400 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 2800 4700 2800
+Connection ~ 4400 2800
+$Comp
+L Main_Library:C_1.5uF_0603_25V C?
+U 1 1 616E24B6
+P 3950 2800
+F 0 "C?" V 3759 2800 39  0000 C CNN
+F 1 "C_1.5uF_0603_25V" H 3950 3050 39  0001 C CNN
+F 2 "MAIN_PCB_LIB:C_0603" H 4000 3150 39  0001 C CNN
+F 3 "" H 3850 2850 39  0001 C CNN
+F 4 "1.5uF" V 3834 2800 39  0000 C CNN "Waarde"
+F 5 "445-5962-1-ND" H 3950 3100 39  0001 C CNN "Digi-Key"
+	1    3950 2800
+	0    1    1    0   
+$EndComp
+Connection ~ 4100 2800
+Wire Wire Line
+	3550 2800 3800 2800
+Connection ~ 3550 2800
 $EndSCHEMATC

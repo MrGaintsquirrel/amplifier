@@ -1,4 +1,4 @@
-521505393727397
+524773884050383
 Capacitor_SMD
 CP_Elec_3x5.3
 SMT capacitor, aluminium electrolytic, 3x5.3, Cornell Dubilier Electronics 
@@ -980,6 +980,13 @@ Q_20V_3.7A_P_Channel
 3
 3
 MAIN_PCB_LIB
+Q_IRFZ44NPBF_Infineon
+
+
+0
+3
+3
+MAIN_PCB_LIB
 R_100K_Pot
 
 
@@ -1015,19 +1022,19 @@ R_Through-hole
 2
 2
 MAIN_PCB_LIB
-TI_National_Semiconductor-LM393N_NOPB-Manufacturer_Recommended
-
-
-0
-8
-8
-MAIN_PCB_LIB
 U_2.54Ghz_BALUN_for_SX1280
 
 
 0
 4
 3
+MAIN_PCB_LIB
+U_8_DIP_TC4427CPA_Microchip
+
+
+0
+8
+8
 MAIN_PCB_LIB
 U_AP2112-3.3v-SOT25
 
@@ -1133,6 +1140,13 @@ U_SX1280_QFN_24
 0
 25
 25
+MAIN_PCB_LIB
+U_TI_LM393N_NOPB
+
+
+0
+8
+8
 MAIN_PCB_LIB
 U_TI_LMR50410_SOT-23
 
