@@ -95,7 +95,7 @@ F 3 "" H 4910 2940 50  0001 C CNN
 $EndComp
 Text HLabel 4700 2600 0    50   Input ~ 0
 Triangle_wave
-Text Notes 5150 2550 0    50   ~ 0
+Text Notes 5000 3250 0    50   ~ 0
 square wave - PWM output
 Text Notes 3650 3550 0    50   ~ 0
 add bandpass filter for\n10h to 40khz
@@ -139,12 +139,12 @@ Connection ~ 5000 2400
 $Comp
 L Main_Library:5V #PWR?
 U 1 1 61694913
-P 7250 2100
-F 0 "#PWR?" H 7000 2200 50  0001 C CNN
-F 1 "5V" H 7250 2275 50  0000 C CNN
-F 2 "" H 7250 2250 50  0001 C CNN
-F 3 "" H 7250 2250 50  0001 C CNN
-	1    7250 2100
+P 7600 2100
+F 0 "#PWR?" H 7350 2200 50  0001 C CNN
+F 1 "5V" H 7600 2275 50  0000 C CNN
+F 2 "" H 7600 2250 50  0001 C CNN
+F 3 "" H 7600 2250 50  0001 C CNN
+	1    7600 2100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -259,11 +259,7 @@ $EndComp
 Wire Wire Line
 	8400 3150 8400 2800
 Wire Wire Line
-	7050 2800 8400 2800
-Wire Wire Line
 	8400 2700 8400 2450
-Wire Wire Line
-	7050 2700 8400 2700
 $Comp
 L Main_Library:GND #GND?
 U 1 1 616B2A1B
@@ -275,13 +271,6 @@ F 3 "" H 8610 3290 50  0001 C CNN
 	1    8700 3350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8700 2800 9300 2800
-Wire Wire Line
-	8700 2950 8700 2800
-Connection ~ 8700 2800
-Wire Wire Line
-	8700 2650 8700 2800
 Wire Wire Line
 	5300 2700 6250 2700
 $Comp
@@ -365,4 +354,189 @@ Connection ~ 4100 2800
 Wire Wire Line
 	3550 2800 3800 2800
 Connection ~ 3550 2800
+$Comp
+L Main_Library:U_LM393N_NOPB U?
+U 2 1 616DCEE6
+P 4600 3650
+F 0 "U?" H 4900 3550 50  0000 L CNN
+F 1 "U_LM393N_NOPB" H 4600 4050 50  0001 L CNN
+F 2 "MAIN_PCB_LIB:U_TI_LM393N_NOPB" H 4600 4150 50  0001 L CNN
+F 3 "" H 4600 4250 50  0001 L CNN
+F 4 "Amplifiers" H 4600 4550 50  0001 L CNN "Comp Type"
+F 5 "Datasheet URL" H 4600 4650 50  0001 L CNN "Component Link 1 Description"
+F 6 "http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=LM393-N&fileType=pdf" H 4600 4750 50  0001 L CNN "Component Link 1 URL"
+F 7 "MDIP, .365 x .250 x .130in, 8 Lead, .100in Pitch" H 4600 4950 50  0001 L CNN "Package Description"
+F 8 "P0008A" H 4600 5050 50  0001 L CNN "Package Reference"
+F 9 "NSUZXYTTE#*LM*393N" H 4600 5150 50  0001 L CNN "Package Top Marking"
+F 10 "8" H 4600 5250 50  0001 L CNN "Pin Count"
+F 11 "N" H 4600 5350 50  0001 L CNN "Power Wise"
+F 12 "IC" H 4600 5450 50  0001 L CNN "category"
+F 13 "1156860" H 4600 5550 50  0001 L CNN "ciiva ids"
+F 14 "56c718e248e42434" H 4600 5650 50  0001 L CNN "library id"
+F 15 "TI National Semiconductor" H 4600 5750 50  0001 L CNN "manufacturer"
+F 16 "MS-001-BA" H 4600 5850 50  0001 L CNN "package"
+F 17 "1464069057" H 4600 5950 50  0001 L CNN "release date"
+F 18 "Yes" H 4600 6050 50  0001 L CNN "rohs"
+F 19 "5C587BB4-AF8A-4456-AC4A-BF04D6254C91" H 4600 6150 50  0001 L CNN "vault revision"
+F 20 "yes" H 4600 6250 50  0001 L CNN "imported"
+	2    4600 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Main_Library:5V #PWR?
+U 1 1 616E25EA
+P 5000 3450
+F 0 "#PWR?" H 4750 3550 50  0001 C CNN
+F 1 "5V" H 5000 3625 50  0000 C CNN
+F 2 "" H 5000 3600 50  0001 C CNN
+F 3 "" H 5000 3600 50  0001 C CNN
+	1    5000 3450
+	1    0    0    -1  
+$EndComp
+Text HLabel 4700 3850 0    50   Input ~ 0
+Triangle_wave
+Wire Wire Line
+	4700 2800 4700 3650
+Connection ~ 4700 2800
+$Comp
+L Main_Library:GND #GND?
+U 1 1 616EA215
+P 5000 4050
+F 0 "#GND?" H 4840 4030 50  0001 C CNN
+F 1 "GND" H 4840 4030 50  0001 C CNN
+F 2 "" H 4910 3990 50  0001 C CNN
+F 3 "" H 4910 3990 50  0001 C CNN
+	1    5000 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 3750 6050 3750
+Wire Wire Line
+	6050 3750 6050 2800
+Wire Wire Line
+	6050 2800 6250 2800
+$Comp
+L Main_Library:R_100K_0603 R?
+U 1 1 616F03BF
+P 7650 3000
+F 0 "R?" H 7703 3046 50  0000 L CNN
+F 1 "R_100K_0603" H 7650 3150 50  0001 C CNN
+F 2 "MAIN_PCB_LIB:R_0603" H 7650 3150 50  0001 C CNN
+F 3 "" H 7650 3150 50  0001 C CNN
+F 4 "100K" H 7703 2955 50  0000 L CNN "Waarde"
+F 5 "603-RT0603FRE10100KL" H 7600 3300 50  0001 C CNN "Mouser"
+	1    7650 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Main_Library:R_100K_0603 R?
+U 1 1 616F1C11
+P 7950 3000
+F 0 "R?" H 8003 3046 50  0000 L CNN
+F 1 "R_100K_0603" H 7950 3150 50  0001 C CNN
+F 2 "MAIN_PCB_LIB:R_0603" H 7950 3150 50  0001 C CNN
+F 3 "" H 7950 3150 50  0001 C CNN
+F 4 "100K" H 8003 2955 50  0000 L CNN "Waarde"
+F 5 "603-RT0603FRE10100KL" H 7900 3300 50  0001 C CNN "Mouser"
+	1    7950 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 2700 7650 2700
+Wire Wire Line
+	7950 2850 7950 2800
+Connection ~ 7950 2800
+Wire Wire Line
+	7950 2800 8400 2800
+Wire Wire Line
+	7050 2800 7950 2800
+Wire Wire Line
+	7650 2850 7650 2700
+Connection ~ 7650 2700
+Wire Wire Line
+	7650 2700 8400 2700
+$Comp
+L Main_Library:GND #GND?
+U 1 1 616FB15D
+P 7650 3150
+F 0 "#GND?" H 7490 3130 50  0001 C CNN
+F 1 "GND" H 7490 3130 50  0001 C CNN
+F 2 "" H 7560 3090 50  0001 C CNN
+F 3 "" H 7560 3090 50  0001 C CNN
+	1    7650 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Main_Library:GND #GND?
+U 1 1 616FB8AE
+P 7950 3150
+F 0 "#GND?" H 7790 3130 50  0001 C CNN
+F 1 "GND" H 7790 3130 50  0001 C CNN
+F 2 "" H 7860 3090 50  0001 C CNN
+F 3 "" H 7860 3090 50  0001 C CNN
+	1    7950 3150
+	1    0    0    -1  
+$EndComp
+NoConn ~ 7050 2900
+NoConn ~ 6250 2600
+Text HLabel 8700 2050 1    50   Input ~ 0
+VIN
+Wire Wire Line
+	8700 2050 8700 2250
+$Comp
+L Main_Library:C_680nF_TH_450V C?
+U 1 1 6170D4C2
+P 9300 2950
+F 0 "C?" H 9378 2996 50  0000 L CNN
+F 1 "C_680nF_TH_450V" H 9350 3300 50  0001 C CNN
+F 2 "MAIN_PCB_LIB:C_ECWFD_Panasonic" H 9350 3300 50  0001 C CNN
+F 3 "" H 9200 3000 50  0001 C CNN
+F 4 "680nF" H 9378 2905 50  0000 L CNN "Waarde"
+F 5 "667-ECW-FD2W684J" H 9350 3300 50  0001 C CNN "Mouser"
+	1    9300 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Main_Library:GND #GND?
+U 1 1 6170EAC5
+P 9300 3100
+F 0 "#GND?" H 9140 3080 50  0001 C CNN
+F 1 "GND" H 9140 3080 50  0001 C CNN
+F 2 "" H 9210 3040 50  0001 C CNN
+F 3 "" H 9210 3040 50  0001 C CNN
+	1    9300 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 2800 9650 2800
+Wire Wire Line
+	8700 2650 8700 2800
+$Comp
+L Main_Library:L_22uH_8095_WU-TI L?
+U 1 1 61713D2D
+P 9050 2800
+F 0 "L?" H 9050 3015 50  0000 C CNN
+F 1 "L_22uH_8095_WU-TI" H 8950 3200 50  0001 C CNN
+F 2 "MAIN_PCB_LIB:L_WE-TI_8095Series" H 8900 3100 50  0001 C CNN
+F 3 "" H 8850 2850 50  0001 C CNN
+F 4 "22uH" H 9050 2924 50  0000 C CNN "Waarde"
+F 5 "710-7447720220" H 9100 3000 50  0001 C CNN "Mouser"
+	1    9050 2800
+	1    0    0    -1  
+$EndComp
+Connection ~ 9300 2800
+Wire Wire Line
+	8700 2800 8800 2800
+Connection ~ 8700 2800
+Wire Wire Line
+	8700 2800 8700 2950
+Text HLabel 9650 2800 2    50   Output ~ 0
+Amplifier_output
+Connection ~ 7600 2100
+Text Notes 5050 2500 0    50   ~ 0
+Add decoupling?
+Text Notes 8750 3350 0    50   ~ 0
+improve switiching add snubbing\n
+Text Notes 3200 3100 0    50   ~ 0
+add offset voltage \nto input signal
 $EndSCHEMATC

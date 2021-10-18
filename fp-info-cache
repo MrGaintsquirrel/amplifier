@@ -1,4 +1,4 @@
-524773884050383
+528082705530144
 Capacitor_SMD
 CP_Elec_3x5.3
 SMT capacitor, aluminium electrolytic, 3x5.3, Cornell Dubilier Electronics 
@@ -749,6 +749,13 @@ C_0603
 2
 2
 MAIN_PCB_LIB
+C_ECWFD_Panasonic
+
+
+0
+2
+2
+MAIN_PCB_LIB
 D_3.3V_Zener
 
 
@@ -951,6 +958,13 @@ L_0805_MLZ_series
 0
 2
 2
+MAIN_PCB_LIB
+L_WE-TI_8095Series
+
+
+0
+0
+0
 MAIN_PCB_LIB
 MOLEX_105133-0011
 Conn Micro USB Type B RCP 5 POS 0.65mm Solder ST SMD 5 Terminal 1 Port Embossed T/R
