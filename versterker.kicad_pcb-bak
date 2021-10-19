@@ -805,9 +805,9 @@
   )
 
   (module MAIN_PCB_LIB:U_8_DIP_TC4427CPA_Microchip (layer F.Cu) (tedit 616896AD) (tstamp 616F1D47)
-    (at 187.42152 111.27994)
+    (at 111.14786 36.2204)
     (path /6152C63E/6168BC4F)
-    (fp_text reference U5 (at -1.13538 0.26416) (layer F.SilkS)
+    (fp_text reference U5 (at -5.56 -5.75) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value U_TC4427M_Microchip (at 0 0) (layer F.SilkS) hide

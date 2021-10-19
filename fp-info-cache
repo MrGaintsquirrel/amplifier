@@ -1,4 +1,4 @@
-528082705530144
+534622875416988
 Capacitor_SMD
 CP_Elec_3x5.3
 SMT capacitor, aluminium electrolytic, 3x5.3, Cornell Dubilier Electronics 
@@ -770,6 +770,13 @@ D_4V_ZENER
 2
 2
 MAIN_PCB_LIB
+D_9V_TVS_SMCJ-Q
+
+
+0
+2
+2
+MAIN_PCB_LIB
 D_LED_green_0805
 WL-SMCW SMC chip LED
 LED
@@ -778,6 +785,13 @@ LED
 2
 MAIN_PCB_LIB
 D_LED_red_5mm
+
+
+0
+2
+2
+MAIN_PCB_LIB
+D_RED_0603_Wurth
 
 
 0
@@ -867,6 +881,13 @@ J_BK-883_20MM_COINCELL
 0
 3
 2
+MAIN_PCB_LIB
+J_Barreljack_3.5mm_Wurth
+<b>694102303002</b><p>WR-DC_DC Power Jack_Right Angled_THT Center Pin ?1.0_Plug ID ?1.05_Plug OD ?3.5
+
+0
+3
+3
 MAIN_PCB_LIB
 J_Coin_Cell_20MM_through_hole
 
@@ -963,8 +984,8 @@ L_WE-TI_8095Series
 
 
 0
-0
-0
+2
+2
 MAIN_PCB_LIB
 MOLEX_105133-0011
 Conn Micro USB Type B RCP 5 POS 0.65mm Solder ST SMD 5 Terminal 1 Port Embossed T/R
@@ -1098,6 +1119,13 @@ U_LM555CN
 0
 8
 8
+MAIN_PCB_LIB
+U_LM3914_TI_DIP
+
+
+0
+18
+18
 MAIN_PCB_LIB
 U_LSF0204-Q1
 
