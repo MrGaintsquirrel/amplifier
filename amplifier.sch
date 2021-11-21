@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:versterker-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -68,10 +67,6 @@ F 3 "" H 4910 2940 50  0001 C CNN
 $EndComp
 Text HLabel 4700 2600 0    50   Input ~ 0
 Triangle_wave
-Text Notes 5000 3250 0    50   ~ 0
-square wave - PWM output
-Text Notes 3650 3550 0    50   ~ 0
-add bandpass filter for\n10h to 40khz
 $Comp
 L Main_Library:U_TC4427M_Microchip U5
 U 1 1 6168BC4F
@@ -476,12 +471,6 @@ Wire Wire Line
 Text HLabel 9650 2800 2    50   Output ~ 0
 Amplifier_output
 Connection ~ 7600 2100
-Text Notes 5050 2500 0    50   ~ 0
-Add decoupling?
-Text Notes 8750 3350 0    50   ~ 0
-improve switiching add snubbing\n
-Text Notes 3200 3100 0    50   ~ 0
-add offset voltage \nto input signal
 $Comp
 L Main_Library:U_LM393N_NOPB U4
 U 1 1 617B6035
