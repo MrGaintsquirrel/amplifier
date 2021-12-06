@@ -19,8 +19,7 @@ U 615215B7
 F0 "PSU" 50
 F1 "PSU.sch" 50
 F2 "9V" I R 2700 1750 50 
-F3 "Vout" O R 2700 2000 50 
-F4 "5V" O R 2700 2100 50 
+F3 "5V" O R 2700 2100 50 
 $EndSheet
 $Sheet
 S 3950 1400 750  750 
@@ -47,12 +46,6 @@ Text Label 2700 2100 0    50   ~ 0
 5V
 Text Label 3050 2650 0    50   ~ 0
 5V
-Text Label 3950 1600 2    50   ~ 0
-5V
-Text Label 2700 2000 0    50   ~ 0
-High_power
-Text Label 3950 1700 2    50   ~ 0
-High_power
 $Sheet
 S 4100 2650 650  450 
 U 616ED187
@@ -194,4 +187,8 @@ F 5 "YAG1236CT-ND" H 3500 4950 39  0001 C CNN "Digi-key"
 	1    3500 4350
 	1    0    0    -1  
 $EndComp
+Text Label 3950 1600 2    50   ~ 0
+5V
+Text Label 3950 1700 2    50   ~ 0
+9V
 $EndSCHEMATC
