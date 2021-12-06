@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 5
+Sheet 2 4
 Title ""
 Date ""
 Rev ""
@@ -46,8 +46,6 @@ F 3 "" H 2460 2340 50  0001 C CNN
 	1    2550 2400
 	0    -1   -1   0   
 $EndComp
-Text HLabel 5500 2200 1    50   Input ~ 0
-5V
 Wire Wire Line
 	5500 2200 5500 2450
 $Comp
@@ -84,30 +82,6 @@ F 1 "GND" H 6590 2930 50  0001 C CNN
 F 2 "" H 6660 2890 50  0001 C CNN
 F 3 "" H 6660 2890 50  0001 C CNN
 	1    6750 2950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Main_Library:5V #PWR03
-U 1 1 61693B59
-P 5700 2450
-F 0 "#PWR03" H 5450 2550 50  0001 C CNN
-F 1 "5V" H 5700 2625 50  0000 C CNN
-F 2 "" H 5700 2600 50  0001 C CNN
-F 3 "" H 5700 2600 50  0001 C CNN
-	1    5700 2450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5500 2450 5700 2450
-$Comp
-L Main_Library:5V #PWR06
-U 1 1 61694913
-P 8100 2150
-F 0 "#PWR06" H 7850 2250 50  0001 C CNN
-F 1 "5V" H 8100 2325 50  0000 C CNN
-F 2 "" H 8100 2300 50  0001 C CNN
-F 3 "" H 8100 2300 50  0001 C CNN
-	1    8100 2150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -309,17 +283,6 @@ F 5 "445-5962-1-ND" H 3350 3050 39  0001 C CNN "Digi-Key"
 	0    1    1    0   
 $EndComp
 Connection ~ 3500 2750
-$Comp
-L Main_Library:5V #PWR02
-U 1 1 616E25EA
-P 5500 3500
-F 0 "#PWR02" H 5250 3600 50  0001 C CNN
-F 1 "5V" H 5500 3675 50  0000 C CNN
-F 2 "" H 5500 3650 50  0001 C CNN
-F 3 "" H 5500 3650 50  0001 C CNN
-	1    5500 3500
-	1    0    0    -1  
-$EndComp
 Text HLabel 5200 3900 0    50   Input ~ 0
 Triangle_wave
 Wire Wire Line
@@ -373,28 +336,11 @@ Wire Wire Line
 	9800 2850 10150 2850
 Wire Wire Line
 	9200 2700 9200 2850
-$Comp
-L Main_Library:L_22uH_8095_WU-TI L1
-U 1 1 61713D2D
-P 9550 2850
-F 0 "L1" H 9550 3065 50  0000 C CNN
-F 1 "L_22uH_8095_WU-TI" H 9450 3250 50  0001 C CNN
-F 2 "MAIN_PCB_LIB:L_WE-TI_8095Series" H 9400 3150 50  0001 C CNN
-F 3 "" H 9350 2900 50  0001 C CNN
-F 4 "22uH" H 9550 2974 50  0000 C CNN "Waarde"
-F 5 "710-7447720220" H 9600 3050 50  0001 C CNN "Mouser"
-	1    9550 2850
-	1    0    0    -1  
-$EndComp
-Connection ~ 9800 2850
 Wire Wire Line
 	9200 2850 9300 2850
 Connection ~ 9200 2850
 Wire Wire Line
 	9200 2850 9200 3000
-Text HLabel 10150 2850 2    50   Output ~ 0
-Amplifier_output
-Connection ~ 8100 2150
 $Comp
 L Main_Library:U_LM393N_NOPB U3
 U 1 1 617B6035
@@ -451,7 +397,6 @@ F 20 "yes" H 5100 6300 50  0001 L CNN "imported"
 	2    5100 3700
 	1    0    0    -1  
 $EndComp
-Connection ~ 5500 2450
 $Comp
 L Main_Library:U_LM358AP_TI_DIP U2
 U 1 1 61AEADB8
@@ -609,8 +554,6 @@ Text Label 9250 2100 0    50   ~ 0
 9V
 Wire Wire Line
 	9200 2100 9250 2100
-Text Label 4700 2550 0    50   ~ 0
-9V
 $Comp
 L Main_Library:R_10K_Potmeter R6
 U 1 1 61B4279F
@@ -657,28 +600,6 @@ $EndComp
 Connection ~ 6250 3800
 Wire Wire Line
 	6250 3800 6550 3800
-$Comp
-L Main_Library:5V #PWR04
-U 1 1 61B6073B
-P 6250 2450
-F 0 "#PWR04" H 6000 2550 50  0001 C CNN
-F 1 "5V" H 6250 2625 50  0000 C CNN
-F 2 "" H 6250 2600 50  0001 C CNN
-F 3 "" H 6250 2600 50  0001 C CNN
-	1    6250 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Main_Library:5V #PWR05
-U 1 1 61B61659
-P 6250 3500
-F 0 "#PWR05" H 6000 3600 50  0001 C CNN
-F 1 "5V" H 6250 3675 50  0000 C CNN
-F 2 "" H 6250 3650 50  0001 C CNN
-F 3 "" H 6250 3650 50  0001 C CNN
-	1    6250 3500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7550 2750 8900 2750
 Wire Wire Line
@@ -718,4 +639,61 @@ Wire Wire Line
 Wire Wire Line
 	2850 2600 2850 2500
 Connection ~ 2850 2500
+Text Label 6250 2450 0    50   ~ 0
+9V
+Text Label 6250 3500 0    50   ~ 0
+9V
+Text Label 8150 2150 0    50   ~ 0
+9V
+Wire Wire Line
+	8100 2150 8150 2150
+Wire Wire Line
+	5500 3500 5550 3500
+Text HLabel 5500 2200 1    50   Input ~ 0
+9V
+Text HLabel 5500 3500 1    50   Input ~ 0
+9V
+Text HLabel 4700 2550 1    50   Input ~ 0
+9V
+$Comp
+L Main_Library:J_2_screwterminal_2.54_282834-2 J3
+U 1 1 61B3AC0A
+P 10350 2950
+F 0 "J3" H 10407 3125 50  0000 C CNN
+F 1 "J_2_screwterminal_2.54_282834-2" H 10230 2685 50  0001 L BNN
+F 2 "MAIN_PCB_LIB:J_2_screwterminal_2.54" H 10345 3105 50  0001 L BNN
+F 3 "" H 10350 2950 50  0001 L BNN
+F 4 "2" H 10350 2950 50  0001 L BNN "Number_of_Positions"
+F 5 "2.54 mm[.1 in]" H 10345 3105 50  0001 L BNN "Centerline_Pitch"
+F 6 "Compliant with Exemptions" H 10345 3105 50  0001 L BNN "EU_RoHS_Compliance"
+F 7 "282834-2" H 10350 3095 50  0001 L BNN "Comment"
+F 8 "571-282834-2" H 10350 2950 50  0001 C CNN "Mouser"
+	1    10350 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Main_Library:GND #GND04
+U 1 1 61B44A08
+P 10150 2950
+F 0 "#GND04" H 9990 2930 50  0001 C CNN
+F 1 "GND" H 9990 2930 50  0001 C CNN
+F 2 "" H 10060 2890 50  0001 C CNN
+F 3 "" H 10060 2890 50  0001 C CNN
+	1    10150 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Main_Library:L_22uH_RFS1113_coilcraft_TH L1
+U 1 1 61B4E324
+P 9550 2850
+F 0 "L1" H 9550 3065 50  0000 C CNN
+F 1 "L_22uH_RFS1113_coilcraft_TH" H 9450 3250 50  0001 C CNN
+F 2 "MAIN_PCB_LIB:L_RFS1113_coilcraft" H 9400 3150 50  0001 C CNN
+F 3 "" H 9350 2900 50  0001 C CNN
+F 4 "22uH" H 9550 2974 50  0000 C CNN "Waarde"
+F 5 "994-RFS1113-223ME" H 9600 3050 50  0001 C CNN "Mouser"
+	1    9550 2850
+	1    0    0    -1  
+$EndComp
+Connection ~ 9800 2850
 $EndSCHEMATC

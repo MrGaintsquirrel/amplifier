@@ -225,6 +225,25 @@ X GND 1 0 0 100 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
+# Main_Library_J_2_screwterminal_2.54_282834-2
+#
+DEF Main_Library_J_2_screwterminal_2.54_282834-2 J 0 40 Y Y 1 F N
+F0 "J" -120 135 50 H V L BNN
+F1 "Main_Library_J_2_screwterminal_2.54_282834-2" -120 -265 50 H I L BNN
+F2 "MAIN_PCB_LIB:J_2_screwterminal_2.54" -5 155 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "2" 0 0 50 H I L BNN "Number_of_Positions"
+F5 "2.54 mm[.1 in]" -5 155 50 H I L BNN "Centerline_Pitch"
+F6 "Compliant with Exemptions" -5 155 50 H I L BNN "EU_RoHS_Compliance"
+F7 "282834-2" 0 145 50 H I L BNN "Comment"
+F8 "571-282834-2" 0 0 50 H I C CNN "Mouser"
+DRAW
+S -100 -200 100 100 0 0 10 f
+X 1 1 200 0 100 L 40 40 0 0 P
+X 2 2 200 -100 100 L 40 40 0 0 P
+ENDDRAW
+ENDDEF
+#
 # Main_Library_J_3.5mm_jack_SJ1-3523N
 #
 DEF Main_Library_J_3.5mm_jack_SJ1-3523N J 0 40 Y N 1 F N
@@ -291,15 +310,15 @@ X ~ 3 0 -100 100 L 40 40 0 0 P
 ENDDRAW
 ENDDEF
 #
-# Main_Library_L_22uH_8095_WU-TI
+# Main_Library_L_22uH_RFS1113_coilcraft_TH
 #
-DEF Main_Library_L_22uH_8095_WU-TI L 0 0 N Y 1 F N
+DEF Main_Library_L_22uH_RFS1113_coilcraft_TH L 0 0 N Y 1 F N
 F0 "L" -200 50 50 H V C CNN
-F1 "Main_Library_L_22uH_8095_WU-TI" -100 400 50 H I C CNN
-F2 "MAIN_PCB_LIB:L_WE-TI_8095Series" -150 300 50 H I C CNN
+F1 "Main_Library_L_22uH_RFS1113_coilcraft_TH" -100 400 50 H I C CNN
+F2 "MAIN_PCB_LIB:L_RFS1113_coilcraft" -150 300 50 H I C CNN
 F3 "" -200 50 50 H I C CNN
 F4 "22uH" 0 100 50 H V C CNN "Waarde"
-F5 "710-7447720220" 50 200 50 H I C CNN "Mouser"
+F5 "994-RFS1113-223ME" 50 200 50 H I C CNN "Mouser"
 DRAW
 A -100 0 50 1 1799 1 1 0 N -50 0 -150 0
 A 0 0 50 1 1799 1 1 0 N 50 0 -50 0
@@ -476,21 +495,6 @@ X 2 2 0 -200 100 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Main_Library_R_3K_0603
-#
-DEF Main_Library_R_3K_0603 R 0 0 N N 1 F N
-F0 "R" 0 0 50 H V C CNN
-F1 "Main_Library_R_3K_0603" 0 0 50 H I C CNN
-F2 "MAIN_PCB_LIB:R_0603" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-F4 "603-RC0603FR-7W3KL" 0 0 50 H I C CNN "mouser"
-DRAW
-S -25 100 25 -100 1 1 0 N
-X 1 1 0 200 100 D 50 50 1 1 I
-X 2 2 0 -200 100 U 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
 # Main_Library_R_4K7_0603
 #
 DEF Main_Library_R_4K7_0603 R 0 0 N N 1 F N
@@ -522,22 +526,6 @@ X ~ 2 0 -200 100 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Main_Library_R_9K1_0603
-#
-DEF Main_Library_R_9K1_0603 R 0 0 N Y 1 F N
-F0 "R" -50 150 39 H V C CNN
-F1 "Main_Library_R_9K1_0603" -50 550 39 H I C CNN
-F2 "Main_LIB:R_0603" 0 500 39 H I C CNN
-F3 "" -50 150 39 H I C CNN
-F4 "9K1" -100 0 39 H V C CNN "Waarde"
-F5 "652-CR0603JW-912ELF" 0 600 39 H I C CNN "Mouser"
-DRAW
-S -25 50 25 -50 1 1 0 N
-X ~ 1 0 150 100 D 50 50 1 1 I
-X ~ 2 0 -150 100 U 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
 # Main_Library_U_555_timer
 #
 DEF Main_Library_U_555_timer U 0 0 N Y 1 F N
@@ -555,22 +543,6 @@ X Con_Volt 5 350 -200 100 L 50 50 1 1 I
 X Threshold 6 -350 -150 100 R 50 50 1 1 I
 X DIS 7 -350 150 100 R 50 50 1 1 I
 X VCC 8 150 350 100 D 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# Main_Library_U_LM317_TH
-#
-DEF Main_Library_U_LM317_TH U 0 0 Y Y 1 F N
-F0 "U" 0 400 50 H V C CNN
-F1 "Main_Library_U_LM317_TH" 0 400 50 H I C CNN
-F2 "MAIN_PCB_LIB:U_LM317_TI_TH" 0 400 50 H I C CNN
-F3 "" 0 400 50 H I C CNN
-F4 "863-LM317TG" 0 0 50 H I C CNN "Mouser"
-DRAW
-S -200 100 200 -100 0 1 0 f
-X Adjust 1 0 -200 100 U 50 50 1 1 I
-X VOUT 2 300 0 100 L 50 50 1 1 O
-X VIN 3 -300 0 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #

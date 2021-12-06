@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 5
+Sheet 1 4
 Title ""
 Date ""
 Rev ""
@@ -14,38 +14,26 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 2150 1600 550  600 
-U 615215B7
-F0 "PSU" 50
-F1 "PSU.sch" 50
-F2 "9V" I R 2700 1750 50 
-F3 "5V" O R 2700 2100 50 
-$EndSheet
-$Sheet
 S 3950 1400 750  750 
 U 6152C63E
 F0 "Amplifier" 50
 F1 "amplifier.sch" 50
-F2 "5V" I L 3950 1600 50 
-F3 "Triangle_wave" I L 3950 1900 50 
-F4 "VIN" I L 3950 1700 50 
+F2 "Triangle_wave" I L 3950 1900 50 
+F3 "Amplifier_output" O L 3950 1750 50 
+F4 "9V" I L 3950 1700 50 
 $EndSheet
 $Sheet
 S 2150 2550 900  450 
 U 6158BEDE
 F0 "555 timer" 50
 F1 "555 timer.sch" 50
-F2 "5V" I R 3050 2650 50 
-F3 "Triangle_wave" O R 3050 2800 50 
+F2 "Triangle_wave" O R 3050 2800 50 
+F3 "9V" I R 3050 2650 50 
 $EndSheet
 Text Label 3050 2800 0    50   ~ 0
 Triangle_wave
 Text Label 3950 1900 2    50   ~ 0
 Triangle_wave
-Text Label 2700 2100 0    50   ~ 0
-5V
-Text Label 3050 2650 0    50   ~ 0
-5V
 $Sheet
 S 4100 2650 650  450 
 U 616ED187
@@ -54,8 +42,6 @@ F1 "VU-Meter.sch" 50
 F2 "9V" I L 4100 2800 50 
 F3 "Signal" I L 4100 2950 50 
 $EndSheet
-Text Label 2700 1750 0    50   ~ 0
-9V
 Text Label 4100 2800 2    50   ~ 0
 9V
 Text Label 4100 2950 2    50   ~ 0
@@ -187,8 +173,8 @@ F 5 "YAG1236CT-ND" H 3500 4950 39  0001 C CNN "Digi-key"
 	1    3500 4350
 	1    0    0    -1  
 $EndComp
-Text Label 3950 1600 2    50   ~ 0
-5V
 Text Label 3950 1700 2    50   ~ 0
+9V
+Text Label 3050 2650 0    50   ~ 0
 9V
 $EndSCHEMATC

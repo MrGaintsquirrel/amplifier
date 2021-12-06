@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 5
+Sheet 3 4
 Title ""
 Date ""
 Rev ""
@@ -24,8 +24,6 @@ F 3 "" H 5900 3400 50  0001 C CNN
 	1    5900 2900
 	1    0    0    -1  
 $EndComp
-Text HLabel 6050 2150 1    50   Input ~ 0
-5V
 Wire Wire Line
 	6050 2150 6050 2550
 Wire Wire Line
@@ -99,4 +97,6 @@ F 3 "" H 5160 3140 50  0001 C CNN
 $EndComp
 Text HLabel 5250 2900 0    50   Output ~ 0
 Triangle_wave
+Text HLabel 6050 2150 1    50   Input ~ 0
+9V
 $EndSCHEMATC
