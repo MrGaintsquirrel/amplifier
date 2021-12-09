@@ -19,8 +19,8 @@ U 6152C63E
 F0 "Amplifier" 50
 F1 "amplifier.sch" 50
 F2 "Triangle_wave" I L 3950 1900 50 
-F3 "Amplifier_output" O L 3950 1750 50 
-F4 "9V" I L 3950 1700 50 
+F3 "9V" I L 3950 1700 50 
+F4 "pre-amp-ouput" O L 3950 1800 50 
 $EndSheet
 $Sheet
 S 2150 2550 900  450 
@@ -44,8 +44,6 @@ F3 "Signal" I L 4100 2950 50
 $EndSheet
 Text Label 4100 2800 2    50   ~ 0
 9V
-Text Label 4100 2950 2    50   ~ 0
-High_power
 $Comp
 L Main_Library:J_Barreljack_3.5mm_Wurth_TH J1
 U 1 1 6176EC14
@@ -177,4 +175,8 @@ Text Label 3950 1700 2    50   ~ 0
 9V
 Text Label 3050 2650 0    50   ~ 0
 9V
+Text Label 3950 1800 2    50   ~ 0
+ampsignal
+Text Label 4100 2950 2    50   ~ 0
+ampsignal
 $EndSCHEMATC

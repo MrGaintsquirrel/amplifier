@@ -496,17 +496,6 @@ F 3 "" H 4610 3090 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Main_Library:5V #PWR01
-U 1 1 61B13FEE
-P 4000 2950
-F 0 "#PWR01" H 3750 3050 50  0001 C CNN
-F 1 "5V" H 4000 3125 50  0000 C CNN
-F 2 "" H 4000 3100 50  0001 C CNN
-F 3 "" H 4000 3100 50  0001 C CNN
-	1    4000 2950
-	1    0    0    -1  
-$EndComp
-$Comp
 L Main_Library:R_10K_0603 R10
 U 1 1 61B1684C
 P 4200 2950
@@ -696,4 +685,8 @@ F 5 "994-RFS1113-223ME" H 9600 3050 50  0001 C CNN "Mouser"
 	1    0    0    -1  
 $EndComp
 Connection ~ 9800 2850
+Text HLabel 5000 2850 3    50   Output ~ 0
+pre-amp-ouput
+Text Label 4000 2950 0    50   ~ 0
+9V
 $EndSCHEMATC
