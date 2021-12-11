@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:versterker-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -16,7 +15,7 @@ Comment4 ""
 $EndDescr
 Text HLabel 5750 3350 0    50   Input ~ 0
 9V
-Text HLabel 4200 3550 0    50   Input ~ 0
+Text HLabel 3900 3550 0    50   Input ~ 0
 Signal
 $Comp
 L Main_Library:U_LM3914N-1_NOPB U6
@@ -711,4 +710,19 @@ Wire Wire Line
 Wire Wire Line
 	5600 4350 5600 4050
 Connection ~ 5600 4050
+$Comp
+L Main_Library:C_1.5uF_0603_25V C?
+U 1 1 61B8FF25
+P 4050 3550
+AR Path="/6152C63E/61B8FF25" Ref="C?"  Part="1" 
+AR Path="/616ED187/61B8FF25" Ref="C9"  Part="1" 
+F 0 "C9" V 3859 3550 39  0000 C CNN
+F 1 "C_1.5uF_0603_25V" H 4050 3800 39  0001 C CNN
+F 2 "MAIN_PCB_LIB:C_0603" H 4100 3900 39  0001 C CNN
+F 3 "" H 3950 3600 39  0001 C CNN
+F 4 "1.5uF" V 3934 3550 39  0000 C CNN "Waarde"
+F 5 "445-5962-1-ND" H 4050 3850 39  0001 C CNN "Digi-Key"
+	1    4050 3550
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
