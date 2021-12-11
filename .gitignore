@@ -1,0 +1,10 @@
+outputs/gerbers/versterker.drl
+outputs/gerbers/versterker-B_Cu.gbr
+outputs/gerbers/versterker-B_Mask.gbr
+outputs/gerbers/versterker-B_Paste.gbr
+outputs/gerbers/versterker-B_SilkS.gbr
+outputs/gerbers/versterker-Edge_Cuts.gbr
+outputs/gerbers/versterker-F_Cu.gbr
+outputs/gerbers/versterker-F_Mask.gbr
+outputs/gerbers/versterker-F_Paste.gbr
+outputs/gerbers/versterker-F_SilkS.gbr
