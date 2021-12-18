@@ -9,7 +9,7 @@ F1 "Main_Library_C_1.5uF_0603_25V" 0 250 39 H I C CNN
 F2 "MAIN_PCB_LIB:C_0603" 50 350 39 H I C CNN
 F3 "" -100 50 39 H I C CNN
 F4 "1.5uF" -150 -50 39 H V C CNN "Waarde"
-F5 "445-5962-1-ND" 0 300 39 H I C CNN "Digi-Key"
+F5 "810-C1608X5R1E155K" 0 300 39 H I C CNN "Mouser"
 DRAW
 P 2 1 1 0 -50 -25 50 -25 N
 P 2 1 1 0 -50 25 50 25 N
@@ -20,14 +20,14 @@ X ~ 2 0 -150 100 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Main_Library_C_100nF_0603_50V
+# Main_Library_C_100nF_0603_25V
 #
-DEF Main_Library_C_100nF_0603_50V C 0 40 N N 1 F N
+DEF Main_Library_C_100nF_0603_25V C 0 40 N N 1 F N
 F0 "C" 0 200 50 H V C CNN
-F1 "Main_Library_C_100nF_0603_50V" -50 350 50 H I C CNN
+F1 "Main_Library_C_100nF_0603_25V" -50 350 50 H I C CNN
 F2 "MAIN_PCB_LIB:C_0603" -50 350 50 H I C CNN
 F3 "" 0 200 50 H I C CNN
-F4 "C105174" -50 300 50 H I C CNN "LCSC"
+F4 "810-C0603X5R1E104KBB" -50 300 50 H I C CNN "Mouser"
 F5 "100nF" -100 50 50 H V C CNN "Waarde"
 DRAW
 P 2 1 1 0 -50 -25 50 -25 N
@@ -39,15 +39,15 @@ X ~ 2 0 -150 100 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Main_Library_C_10uF_0603
+# Main_Library_C_10uF_0603_16V
 #
-DEF Main_Library_C_10uF_0603 C 0 0 N N 1 F N
+DEF Main_Library_C_10uF_0603_16V C 0 0 N N 1 F N
 F0 "C" -60 -70 50 H V C CNN
-F1 "Main_Library_C_10uF_0603" 0 250 50 H I C CNN
+F1 "Main_Library_C_10uF_0603_16V" 0 250 50 H I C CNN
 F2 "MAIN_PCB_LIB:C_0603" 160 320 50 H I C CNN
 F3 "" -60 -100 50 H I C CNN
 F4 "10uF" -130 30 50 H V C CNN "Waarde"
-F5 "311-1448-2-ND" 0 0 50 H I C CNN "Digi-Key"
+F5 "187-CL10A106KO8NQNC" 0 0 50 H I C CNN "Mouser"
 DRAW
 P 2 0 1 0 -50 -25 50 -25 N
 P 2 0 1 0 -50 25 50 25 N
@@ -85,7 +85,7 @@ F1 "Main_Library_C_390pF_0603_50V" 0 250 39 H I C CNN
 F2 "MAIN_PCB_LIB:C_0603" 50 350 39 H I C CNN
 F3 "" -100 50 39 H I C CNN
 F4 "390pF" -150 -50 39 H V C CNN "Waarde"
-F5 "399-1074-1-ND" 0 300 39 H I C CNN "Digi-Key"
+F5 "80-C0603C391K5R" 0 300 39 H I C CNN "Mouser"
 DRAW
 P 2 1 1 0 -50 -25 50 -25 N
 P 2 1 1 0 -50 25 50 25 N
@@ -104,7 +104,7 @@ F1 "Main_Library_C_4.7uF_0603_25V" 50 500 50 H I C CNN
 F2 "Main_LIB:C_0603" 50 500 50 H I C CNN
 F3 "" -100 100 50 H I C CNN
 F4 "4.7uF" -100 -100 50 H V C CNN "Waarde"
-F5 "587-4321-1-ND" 50 450 50 H I C CNN "Digi-Key"
+F5 "963-TMK107BBJ475KA-T" 50 450 50 H I C CNN "Mouser"
 DRAW
 P 2 1 1 0 -50 -25 50 -25 N
 P 2 1 1 0 -50 25 50 25 N
@@ -158,35 +158,7 @@ F0 "D" 0 400 50 H V L CNN
 F1 "Main_Library_D_RED_0603_Wurth_150060RS75000" 0 500 50 H I L CNN
 F2 "MAIN_PCB_LIB:D_RED_0603_Wurth" 0 600 50 H I L CNN
 F3 "" 0 700 50 H I L CNN
-F4 "No" 0 800 50 H I L CNN "automotive"
-F5 "Diode" 0 900 50 H I L CNN "category"
-F6 "Red" 0 1000 50 H V L CNN "colour"
-F7 "Optoelectronics" 0 1100 50 H I L CNN "device class L1"
-F8 "LEDs" 0 1200 50 H I L CNN "device class L2"
-F9 "unset" 0 1300 50 H I L CNN "device class L3"
-F10 "LED RED CLEAR 0603 SMD" 0 1400 50 H I L CNN "digikey description"
-F11 "732-4978-1-ND" 0 1500 50 H I L CNN "digikey part number"
-F12 "20mA" 0 1600 50 H I L CNN "forward current"
-F13 "2V" 0 1700 50 H I L CNN "forward voltage"
-F14 "0.8mm" 0 1800 50 H I L CNN "height"
-F15 "Yes" 0 1900 50 H I L CNN "lead free"
-F16 "Top View" 0 2000 50 H I L CNN "led orientation"
-F17 "cd4e03a66a96d806" 0 2100 50 H I L CNN "library id"
-F18 "250mcd" 0 2200 50 H I L CNN "luminous intensity"
-F19 "Wurth" 0 2300 50 H I L CNN "manufacturer"
-F20 "+95°C" 0 2400 50 H I L CNN "max junction temp"
-F21 "Standard LEDs - SMD WL-SMCW SMDMono TpVw Waterclr 0603 Red" 0 2500 50 H I L CNN "mouser description"
-F22 "710-150060RS75000" 0 2600 50 H I L CNN "mouser part number"
-F23 "0603" 0 2700 50 H I L CNN "package"
-F24 "630nm" 0 2800 50 H I L CNN "peak emmision wavelength"
-F25 "72mW" 0 2900 50 H I L CNN "power dissipation"
-F26 "5V" 0 3000 50 H I L CNN "reverse voltage"
-F27 "Yes" 0 3100 50 H I L CNN "rohs"
-F28 "0mm" 0 3200 50 H I L CNN "standoff height"
-F29 "+85°C" 0 3300 50 H I L CNN "temperature range high"
-F30 "-40°C" 0 3400 50 H I L CNN "temperature range low"
-F31 "140°" 0 3500 50 H I L CNN "viewing angle"
-F32 "625nm" 0 3600 50 H I L CNN "wavelength"
+F4 "710-150060RS75000" 0 2600 50 H I L CNN "Mouser"
 DRAW
 P 2 1 1 0 200 -100 400 0 N
 P 2 1 1 0 200 100 200 -100 N
@@ -274,9 +246,7 @@ F0 "J" -400 300 50 H V L BNN
 F1 "Main_Library_J_3.5mm_jack_SJ1-3523N" -400 -400 50 H V L BNN
 F2 "CUI_SJ1-3523N" 0 0 50 H I L BNN
 F3 "" 0 0 50 H I L BNN
-F4 "1.02" 0 0 50 H I L BNN "PARTREV"
-F5 "Manufacturer recommendation" 0 0 50 H I L BNN "STANDARD"
-F6 "CUI" 0 0 50 H I L BNN "MANUFACTURER"
+F4 "490-SJ1-3523N" 0 0 50 H I C CNN "Mouser"
 DRAW
 P 2 0 0 10 -400 -200 400 -200 N
 P 2 0 0 10 -400 200 -400 -200 N
@@ -358,22 +328,7 @@ F0 "Q" -100 300 50 H V L CNN
 F1 "Main_Library_Q_IRFZ44NPBF_N-Channel_Infineon" 0 400 50 H I L CNN
 F2 "MAIN_PCB_LIB:Q_IRFZ44NPBF_Infineon" 0 500 50 H I L CNN
 F3 "" 0 600 50 H I L CNN
-F4 "49A" 0 700 50 H I L CNN "Current - Continuous Drain"
-F5 "55V" 0 800 50 H I L CNN "Drain to Source Voltage"
-F6 "N-Channel" 0 900 50 H I L CNN "FET Type"
-F7 "17.5 mOhm" 0 1000 50 H I L CNN "Rds On"
-F8 "Trans" 0 1100 50 H I L CNN "category"
-F9 "N-Channel 55V 49A (Tc) 94W (Tc) Through Hole TO-220AB" 0 1200 50 H I L CNN "digikey description"
-F10 "IRFZ44NPBF-ND" 0 1300 50 H I L CNN "digikey part number"
-F11 "TO-220" 0 1400 50 H I L CNN "ipc land pattern name"
-F12 "yes" 0 1500 50 H I L CNN "lead free"
-F13 "28a2cf11992d899a" 0 1600 50 H I L CNN "library id"
-F14 "Infineon Technologies AG" 0 1700 50 H I L CNN "manufacturer"
-F15 "942-IRFZ44NPBF" 0 1800 50 H I L CNN "mouser part number"
-F16 "TO-220AB" 0 1900 50 H I L CNN "package"
-F17 "yes" 0 2000 50 H I L CNN "rohs"
-F18 "+175°C" 0 2100 50 H I L CNN "temperature range high"
-F19 "-55°C" 0 2200 50 H I L CNN "temperature range low"
+F4 "942-IRFZ44NPBF" 0 1800 50 H I L CNN "Mouser"
 DRAW
 C 300 -80 10 1 1 0 N
 C 300 80 10 1 1 0 N
@@ -412,7 +367,7 @@ F1 "Main_Library_R_10K_0603" -50 550 39 H I C CNN
 F2 "MAIN_PCB_LIB:R_0603" 0 500 39 H I C CNN
 F3 "" -50 150 39 H I C CNN
 F4 "10K" -100 0 39 H V C CNN "Waarde"
-F5 "YAG1236CT-ND" 0 600 39 H I C CNN "Digi-key"
+F5 "667-ERJ-UP3F1002V" 0 600 39 H I C CNN "Mouser"
 DRAW
 S -25 50 25 -50 1 1 0 N
 X ~ 1 0 150 100 D 50 50 1 1 I
@@ -446,7 +401,7 @@ F1 "Main_Library_R_1K_0603" 0 450 50 H I C CNN
 F2 "MAIN_PCB_LIB:R_0603" 200 520 50 H I C CNN
 F3 "" -50 -150 50 H I C CNN
 F4 "1K" -80 30 50 H V C CNN "Waarde"
-F5 "311-1.0KDDKR-ND" 150 600 50 H I C CNN "Digi-Key"
+F5 "667-ERJ-PB3D1001V" 150 600 50 H I C CNN "Mouser"
 DRAW
 S -25 100 25 -100 1 1 0 N
 X ~ 1 0 200 100 D 50 50 1 1 I
@@ -545,40 +500,7 @@ F0 "U" 0 300 50 H V L CNN
 F1 "Main_Library_U_LM358AP_TI_DIP" 0 400 50 H I L CNN
 F2 "MAIN_PCB_LIB:U_LM358AP_TI_DIP" 0 500 50 H I L CNN
 F3 "" 0 600 50 H I L CNN
-F4 "Manufacturer URL" 0 1100 50 H I L CNN "Component Link 1 Description"
-F5 "http://www.ti.com/" 0 1200 50 H I L CNN "Component Link 1 URL"
-F6 "Package Specification" 0 1300 50 H I L CNN "Component Link 3 Description"
-F7 "http://www.ti.com/lit/ml/mpdi001b/mpdi001b.pdf" 0 1400 50 H I L CNN "Component Link 3 URL"
-F8 "SLOS068T, 04/2015" 0 1500 50 H I L CNN "Datasheet Version"
-F9 "20 mA" 0 1600 50 H I L CNN "Forward Current"
-F10 "2 V" 0 1700 50 H I L CNN "Forward Voltage"
-F11 "1.1 mm" 0 1800 50 H I L CNN "Height"
-F12 "Orange" 0 1900 50 H I L CNN "Illumination Colour"
-F13 "1.6 mm" 0 2000 50 H I L CNN "Length"
-F14 "Diffused" 0 2100 50 H I L CNN "Lens Style"
-F15 "90 mcd" 0 2200 50 H I L CNN "Luminous Intensity"
-F16 "85 degC" 0 2300 50 H I L CNN "Max Operating Temperature"
-F17 "-55 degC" 0 2400 50 H I L CNN "Min Operating Temperature"
-F18 "Surface Mount" 0 2500 50 H I L CNN "Mount"
-F19 "2 V" 0 2600 50 H I L CNN "Nominal Vf"
-F20 "8-Pin Double In-line Package, Body 9.59 x 6.35 mm, Pitch 2.54 mm" 0 2700 50 H I L CNN "Package Description"
-F21 "3000" 0 2800 50 H I L CNN "Package Quantity"
-F22 "4040082/E, 04/2010" 0 2900 50 H I L CNN "Package Version"
-F23 "Tape and Reel" 0 3000 50 H I L CNN "Packaging"
-F24 "2" 0 3100 50 H I L CNN "Pins"
-F25 "75 mW" 0 3200 50 H I L CNN "Power Rating"
-F26 "No" 0 3300 50 H I L CNN "Radiation Hardening"
-F27 "true" 0 3400 50 H I L CNN "Ro HSCompliant"
-F28 "130 degrees" 0 3500 50 H I L CNN "Viewing Angle"
-F29 "0.8 mm" 0 3600 50 H I L CNN "Width"
-F30 "IC" 0 3700 50 H I L CNN "category"
-F31 "13597420" 0 3800 50 H I L CNN "ciiva ids"
-F32 "102746b87d6455a5" 0 3900 50 H I L CNN "library id"
-F33 "Texas Instruments" 0 4000 50 H I L CNN "manufacturer"
-F34 "P0008A" 0 4100 50 H I L CNN "package"
-F35 "1475053146" 0 4200 50 H I L CNN "release date"
-F36 "197138BC-30E5-4CB1-984F-D199D98786C8" 0 4300 50 H I L CNN "vault revision"
-F37 "yes" 0 4400 50 H I L CNN "imported"
+F4 "926-LM358N/NOPB" 0 0 50 H I C CNN "Mouser"
 DRAW
 P 2 1 1 0 100 -300 500 -100 N
 P 2 1 1 0 100 100 100 -300 N
@@ -659,23 +581,7 @@ F0 "U" 0 300 50 H V L CNN
 F1 "Main_Library_U_LM393N_NOPB" 0 400 50 H I L CNN
 F2 "MAIN_PCB_LIB:U_TI_LM393N_NOPB" 0 500 50 H I L CNN
 F3 "" 0 600 50 H I L CNN
-F4 "Amplifiers" 0 900 50 H I L CNN "Comp Type"
-F5 "Datasheet URL" 0 1000 50 H I L CNN "Component Link 1 Description"
-F6 "http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=LM393-N&fileType=pdf" 0 1100 50 H I L CNN "Component Link 1 URL"
-F7 "MDIP, .365 x .250 x .130in, 8 Lead, .100in Pitch" 0 1300 50 H I L CNN "Package Description"
-F8 "P0008A" 0 1400 50 H I L CNN "Package Reference"
-F9 "NSUZXYTTE#*LM*393N" 0 1500 50 H I L CNN "Package Top Marking"
-F10 "8" 0 1600 50 H I L CNN "Pin Count"
-F11 "N" 0 1700 50 H I L CNN "Power Wise"
-F12 "IC" 0 1800 50 H I L CNN "category"
-F13 "1156860" 0 1900 50 H I L CNN "ciiva ids"
-F14 "56c718e248e42434" 0 2000 50 H I L CNN "library id"
-F15 "TI National Semiconductor" 0 2100 50 H I L CNN "manufacturer"
-F16 "MS-001-BA" 0 2200 50 H I L CNN "package"
-F17 "1464069057" 0 2300 50 H I L CNN "release date"
-F18 "Yes" 0 2400 50 H I L CNN "rohs"
-F19 "5C587BB4-AF8A-4456-AC4A-BF04D6254C91" 0 2500 50 H I L CNN "vault revision"
-F20 "yes" 0 2600 50 H I L CNN "imported"
+F4 "926-LM393N/NOPB" 0 0 50 H I C CNN "Mouser"
 DRAW
 P 2 1 1 0 200 -300 600 -100 N
 P 2 1 1 0 200 100 200 -300 N
@@ -713,7 +619,7 @@ F0 "U" 0 250 50 H V C CNN
 F1 "Main_Library_U_TC4427M_Microchip" 0 250 50 H I C CNN
 F2 "MAIN_PCB_LIB:U_8_DIP_TC4427CPA_Microchip" 0 250 50 H I C CNN
 F3 "" 0 250 50 H I C CNN
-F4 "579-TC4427ACPA" 0 0 50 H I C CNN "mouser"
+F4 "579-TC4427ACPA" 0 0 50 H I C CNN "Mouser"
 DRAW
 S 100 100 700 -400 0 1 0 f
 X NC 1 0 0 100 R 50 50 0 0 U

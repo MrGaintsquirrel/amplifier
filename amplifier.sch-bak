@@ -36,7 +36,7 @@ F 0 "U4" H 7150 2823 50  0000 C CNN
 F 1 "U_TC4427M_Microchip" H 6750 2900 50  0001 C CNN
 F 2 "MAIN_PCB_LIB:U_8_DIP_TC4427CPA_Microchip" H 6750 2900 50  0001 C CNN
 F 3 "" H 6750 2900 50  0001 C CNN
-F 4 "579-TC4427ACPA" H 6750 2650 50  0001 C CNN "mouser"
+F 4 "579-TC4427ACPA" H 0   0   50  0001 C CNN "Mouser"
 	1    6750 2650
 	1    0    0    -1  
 $EndComp
@@ -57,10 +57,10 @@ U 1 1 6169E9C1
 P 7750 2300
 F 0 "C4" H 7828 2346 50  0000 L CNN
 F 1 "C_4.7uF_0603_25V" H 7800 2800 50  0001 C CNN
-F 2 "MAIN_PCB_LIB:C_0603" H 7800 2800 50  0001 C CNN
+F 2 "Main_LIB:C_0603" H 7800 2800 50  0001 C CNN
 F 3 "" H 7650 2400 50  0001 C CNN
 F 4 "4.7uF" H 7828 2255 50  0000 L CNN "Waarde"
-F 5 "587-4321-1-ND" H 7800 2750 50  0001 C CNN "Digi-Key"
+F 5 "963-TMK107BBJ475KA-T" H 0   0   50  0001 C CNN "Mouser"
 	1    7750 2300
 	1    0    0    -1  
 $EndComp
@@ -73,19 +73,6 @@ F 1 "GND" H 7590 2430 50  0001 C CNN
 F 2 "" H 7660 2390 50  0001 C CNN
 F 3 "" H 7660 2390 50  0001 C CNN
 	1    7750 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Main_Library:C_100nF_0603_50V C5
-U 1 1 6169FEE0
-P 8100 2300
-F 0 "C5" H 8178 2346 50  0000 L CNN
-F 1 "C_100nF_0603_50V" H 8050 2650 50  0001 C CNN
-F 2 "MAIN_PCB_LIB:C_0603" H 8050 2650 50  0001 C CNN
-F 3 "" H 8100 2500 50  0001 C CNN
-F 4 "C105174" H 8050 2600 50  0001 C CNN "LCSC"
-F 5 "100nF" H 8178 2255 50  0000 L CNN "Waarde"
-	1    8100 2300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -114,22 +101,7 @@ F 0 "Q1" H 9328 2500 50  0000 L CNN
 F 1 "Q_IRFZ44NPBF_N-Channel_Infineon" H 8900 2900 50  0001 L CNN
 F 2 "MAIN_PCB_LIB:Q_IRFZ44NPBF_Infineon" H 8900 3000 50  0001 L CNN
 F 3 "https://www.infineon.com/dgdl/irfz44npbf.pdf?fileId=5546d462533600a40153563b3a9f220d" H 8900 3100 50  0001 L CNN
-F 4 "49A" H 8900 3200 50  0001 L CNN "Current - Continuous Drain"
-F 5 "55V" H 8900 3300 50  0001 L CNN "Drain to Source Voltage"
-F 6 "N-Channel" H 8900 3400 50  0001 L CNN "FET Type"
-F 7 "17.5 mOhm" H 8900 3500 50  0001 L CNN "Rds On"
-F 8 "Trans" H 8900 3600 50  0001 L CNN "category"
-F 9 "N-Channel 55V 49A (Tc) 94W (Tc) Through Hole TO-220AB" H 8900 3700 50  0001 L CNN "digikey description"
-F 10 "IRFZ44NPBF-ND" H 8900 3800 50  0001 L CNN "digikey part number"
-F 11 "TO-220" H 8900 3900 50  0001 L CNN "ipc land pattern name"
-F 12 "yes" H 8900 4000 50  0001 L CNN "lead free"
-F 13 "28a2cf11992d899a" H 8900 4100 50  0001 L CNN "library id"
-F 14 "Infineon Technologies AG" H 8900 4200 50  0001 L CNN "manufacturer"
-F 15 "942-IRFZ44NPBF" H 8900 4300 50  0001 L CNN "mouser part number"
-F 16 "TO-220AB" H 8900 4400 50  0001 L CNN "package"
-F 17 "yes" H 8900 4500 50  0001 L CNN "rohs"
-F 18 "+175°C" H 8900 4600 50  0001 L CNN "temperature range high"
-F 19 "-55°C" H 8900 4700 50  0001 L CNN "temperature range low"
+F 4 "942-IRFZ44NPBF" H 0   0   50  0001 C CNN "Mouser"
 	1    8900 2500
 	1    0    0    -1  
 $EndComp
@@ -141,22 +113,7 @@ F 0 "Q2" H 9328 3200 50  0000 L CNN
 F 1 "Q_IRFZ44NPBF_N-Channel_Infineon" H 8900 3600 50  0001 L CNN
 F 2 "MAIN_PCB_LIB:Q_IRFZ44NPBF_Infineon" H 8900 3700 50  0001 L CNN
 F 3 "https://www.infineon.com/dgdl/irfz44npbf.pdf?fileId=5546d462533600a40153563b3a9f220d" H 8900 3800 50  0001 L CNN
-F 4 "49A" H 8900 3900 50  0001 L CNN "Current - Continuous Drain"
-F 5 "55V" H 8900 4000 50  0001 L CNN "Drain to Source Voltage"
-F 6 "N-Channel" H 8900 4100 50  0001 L CNN "FET Type"
-F 7 "17.5 mOhm" H 8900 4200 50  0001 L CNN "Rds On"
-F 8 "Trans" H 8900 4300 50  0001 L CNN "category"
-F 9 "N-Channel 55V 49A (Tc) 94W (Tc) Through Hole TO-220AB" H 8900 4400 50  0001 L CNN "digikey description"
-F 10 "IRFZ44NPBF-ND" H 8900 4500 50  0001 L CNN "digikey part number"
-F 11 "TO-220" H 8900 4600 50  0001 L CNN "ipc land pattern name"
-F 12 "yes" H 8900 4700 50  0001 L CNN "lead free"
-F 13 "28a2cf11992d899a" H 8900 4800 50  0001 L CNN "library id"
-F 14 "Infineon Technologies AG" H 8900 4900 50  0001 L CNN "manufacturer"
-F 15 "942-IRFZ44NPBF" H 8900 5000 50  0001 L CNN "mouser part number"
-F 16 "TO-220AB" H 8900 5100 50  0001 L CNN "package"
-F 17 "yes" H 8900 5200 50  0001 L CNN "rohs"
-F 18 "+175°C" H 8900 5300 50  0001 L CNN "temperature range high"
-F 19 "-55°C" H 8900 5400 50  0001 L CNN "temperature range low"
+F 4 "942-IRFZ44NPBF" H 0   0   50  0001 C CNN "Mouser"
 	1    8900 3200
 	1    0    0    -1  
 $EndComp
@@ -184,7 +141,7 @@ F 1 "R_10K_0603" H 4050 3300 39  0001 C CNN
 F 2 "MAIN_PCB_LIB:R_0603" H 4100 3250 39  0001 C CNN
 F 3 "" H 4050 2900 39  0001 C CNN
 F 4 "10K" V 4009 2750 39  0000 C CNN "Waarde"
-F 5 "YAG1236CT-ND" H 4100 3350 39  0001 C CNN "Digi-key"
+F 5 "667-ERJ-UP3F1002V" H 0   0   50  0001 C CNN "Mouser"
 	1    4100 2750
 	0    1    1    0   
 $EndComp
@@ -197,7 +154,7 @@ F 1 "R_10K_0603" H 3900 3450 39  0001 C CNN
 F 2 "MAIN_PCB_LIB:R_0603" H 3950 3400 39  0001 C CNN
 F 3 "" H 3900 3050 39  0001 C CNN
 F 4 "10K" V 3859 2900 39  0000 C CNN "Waarde"
-F 5 "YAG1236CT-ND" H 3950 3500 39  0001 C CNN "Digi-key"
+F 5 "667-ERJ-UP3F1002V" H 0   0   50  0001 C CNN "Mouser"
 	1    3950 2900
 	1    0    0    -1  
 $EndComp
@@ -221,7 +178,7 @@ F 1 "C_390pF_0603_50V" H 4250 3150 39  0001 C CNN
 F 2 "MAIN_PCB_LIB:C_0603" H 4300 3250 39  0001 C CNN
 F 3 "" H 4150 2950 39  0001 C CNN
 F 4 "390pF" H 4100 2850 39  0000 L CNN "Waarde"
-F 5 "399-1074-1-ND" H 4250 3200 39  0001 C CNN "Digi-Key"
+F 5 "80-C0603C391K5R" H 0   0   50  0001 C CNN "Mouser"
 	1    4250 2900
 	1    0    0    -1  
 $EndComp
@@ -236,20 +193,6 @@ F 3 "" H 4160 2990 50  0001 C CNN
 	1    4250 3050
 	1    0    0    -1  
 $EndComp
-$Comp
-L Main_Library:C_1.5uF_0603_25V C2
-U 1 1 616E24B6
-P 3800 2750
-F 0 "C2" V 3609 2750 39  0000 C CNN
-F 1 "C_1.5uF_0603_25V" H 3800 3000 39  0001 C CNN
-F 2 "MAIN_PCB_LIB:C_0603" H 3850 3100 39  0001 C CNN
-F 3 "" H 3700 2800 39  0001 C CNN
-F 4 "1.5uF" V 3684 2750 39  0000 C CNN "Waarde"
-F 5 "445-5962-1-ND" H 3800 3050 39  0001 C CNN "Digi-Key"
-	1    3800 2750
-	0    1    1    0   
-$EndComp
-Connection ~ 3950 2750
 Text HLabel 5650 3900 0    50   Input ~ 0
 Triangle_wave
 Wire Wire Line
@@ -290,23 +233,7 @@ F 0 "U3" H 5850 2550 50  0000 L CNN
 F 1 "U_LM393N_NOPB" H 5550 3050 50  0001 L CNN
 F 2 "MAIN_PCB_LIB:U_TI_LM393N_NOPB" H 5550 3150 50  0001 L CNN
 F 3 "" H 5550 3250 50  0001 L CNN
-F 4 "Amplifiers" H 5550 3550 50  0001 L CNN "Comp Type"
-F 5 "Datasheet URL" H 5550 3650 50  0001 L CNN "Component Link 1 Description"
-F 6 "http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=LM393-N&fileType=pdf" H 5550 3750 50  0001 L CNN "Component Link 1 URL"
-F 7 "MDIP, .365 x .250 x .130in, 8 Lead, .100in Pitch" H 5550 3950 50  0001 L CNN "Package Description"
-F 8 "P0008A" H 5550 4050 50  0001 L CNN "Package Reference"
-F 9 "NSUZXYTTE#*LM*393N" H 5550 4150 50  0001 L CNN "Package Top Marking"
-F 10 "8" H 5550 4250 50  0001 L CNN "Pin Count"
-F 11 "N" H 5550 4350 50  0001 L CNN "Power Wise"
-F 12 "IC" H 5550 4450 50  0001 L CNN "category"
-F 13 "1156860" H 5550 4550 50  0001 L CNN "ciiva ids"
-F 14 "56c718e248e42434" H 5550 4650 50  0001 L CNN "library id"
-F 15 "TI National Semiconductor" H 5550 4750 50  0001 L CNN "manufacturer"
-F 16 "MS-001-BA" H 5550 4850 50  0001 L CNN "package"
-F 17 "1464069057" H 5550 4950 50  0001 L CNN "release date"
-F 18 "Yes" H 5550 5050 50  0001 L CNN "rohs"
-F 19 "5C587BB4-AF8A-4456-AC4A-BF04D6254C91" H 5550 5150 50  0001 L CNN "vault revision"
-F 20 "yes" H 5550 5250 50  0001 L CNN "imported"
+F 4 "926-LM393N/NOPB" H 0   0   50  0001 C CNN "Mouser"
 	1    5550 2650
 	1    0    0    -1  
 $EndComp
@@ -318,40 +245,7 @@ F 0 "U2" H 5050 2650 50  0000 L CNN
 F 1 "U_LM358AP_TI_DIP" H 4850 3150 50  0001 L CNN
 F 2 "MAIN_PCB_LIB:U_LM358AP_TI_DIP" H 4850 3250 50  0001 L CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm358a.pdf" H 4850 3350 50  0001 L CNN
-F 4 "Manufacturer URL" H 4850 3850 50  0001 L CNN "Component Link 1 Description"
-F 5 "http://www.ti.com/" H 4850 3950 50  0001 L CNN "Component Link 1 URL"
-F 6 "Package Specification" H 4850 4050 50  0001 L CNN "Component Link 3 Description"
-F 7 "http://www.ti.com/lit/ml/mpdi001b/mpdi001b.pdf" H 4850 4150 50  0001 L CNN "Component Link 3 URL"
-F 8 "SLOS068T, 04/2015" H 4850 4250 50  0001 L CNN "Datasheet Version"
-F 9 "20 mA" H 4850 4350 50  0001 L CNN "Forward Current"
-F 10 "2 V" H 4850 4450 50  0001 L CNN "Forward Voltage"
-F 11 "1.1 mm" H 4850 4550 50  0001 L CNN "Height"
-F 12 "Orange" H 4850 4650 50  0001 L CNN "Illumination Colour"
-F 13 "1.6 mm" H 4850 4750 50  0001 L CNN "Length"
-F 14 "Diffused" H 4850 4850 50  0001 L CNN "Lens Style"
-F 15 "90 mcd" H 4850 4950 50  0001 L CNN "Luminous Intensity"
-F 16 "85 degC" H 4850 5050 50  0001 L CNN "Max Operating Temperature"
-F 17 "-55 degC" H 4850 5150 50  0001 L CNN "Min Operating Temperature"
-F 18 "Surface Mount" H 4850 5250 50  0001 L CNN "Mount"
-F 19 "2 V" H 4850 5350 50  0001 L CNN "Nominal Vf"
-F 20 "8-Pin Double In-line Package, Body 9.59 x 6.35 mm, Pitch 2.54 mm" H 4850 5450 50  0001 L CNN "Package Description"
-F 21 "3000" H 4850 5550 50  0001 L CNN "Package Quantity"
-F 22 "4040082/E, 04/2010" H 4850 5650 50  0001 L CNN "Package Version"
-F 23 "Tape and Reel" H 4850 5750 50  0001 L CNN "Packaging"
-F 24 "2" H 4850 5850 50  0001 L CNN "Pins"
-F 25 "75 mW" H 4850 5950 50  0001 L CNN "Power Rating"
-F 26 "No" H 4850 6050 50  0001 L CNN "Radiation Hardening"
-F 27 "true" H 4850 6150 50  0001 L CNN "Ro HSCompliant"
-F 28 "130 degrees" H 4850 6250 50  0001 L CNN "Viewing Angle"
-F 29 "0.8 mm" H 4850 6350 50  0001 L CNN "Width"
-F 30 "IC" H 4850 6450 50  0001 L CNN "category"
-F 31 "13597420" H 4850 6550 50  0001 L CNN "ciiva ids"
-F 32 "102746b87d6455a5" H 4850 6650 50  0001 L CNN "library id"
-F 33 "Texas Instruments" H 4850 6750 50  0001 L CNN "manufacturer"
-F 34 "P0008A" H 4850 6850 50  0001 L CNN "package"
-F 35 "1475053146" H 4850 6950 50  0001 L CNN "release date"
-F 36 "197138BC-30E5-4CB1-984F-D199D98786C8" H 4850 7050 50  0001 L CNN "vault revision"
-F 37 "yes" H 4850 7150 50  0001 L CNN "imported"
+F 4 "926-LM358N/NOPB" H 0   0   50  0001 C CNN "Mouser"
 	1    4850 2750
 	1    0    0    -1  
 $EndComp
@@ -408,7 +302,7 @@ F 1 "R_10K_0603" H 6350 3150 39  0001 C CNN
 F 2 "MAIN_PCB_LIB:R_0603" H 6400 3100 39  0001 C CNN
 F 3 "" H 6350 2750 39  0001 C CNN
 F 4 "10K" V 6309 2600 39  0000 C CNN "Waarde"
-F 5 "YAG1236CT-ND" H 6400 3200 39  0001 C CNN "Digi-key"
+F 5 "667-ERJ-UP3F1002V" H 0   0   50  0001 C CNN "Mouser"
 	1    6400 2600
 	1    0    0    -1  
 $EndComp
@@ -486,11 +380,9 @@ U 1 1 6158C0E7
 P 1400 2500
 F 0 "J2" H 1507 2775 50  0000 C CNN
 F 1 "J_3.5mm_jack_SJ1-3523N" H 1507 2776 50  0001 C CNN
-F 2 "MAIN_PCB_LIB:J_3.5mm_JACK_CUI_SJ1-3523N" H 1400 2500 50  0001 L BNN
+F 2 "CUI_SJ1-3523N" H 1400 2500 50  0001 L BNN
 F 3 "" H 1400 2500 50  0001 L BNN
-F 4 "1.02" H 1400 2500 50  0001 L BNN "PARTREV"
-F 5 "Manufacturer recommendation" H 1400 2500 50  0001 L BNN "STANDARD"
-F 6 "CUI" H 1400 2500 50  0001 L BNN "MANUFACTURER"
+F 4 "490-SJ1-3523N" H 0   0   50  0001 C CNN "Mouser"
 	1    1400 2500
 	1    0    0    -1  
 $EndComp
@@ -568,7 +460,7 @@ F 1 "R_10K_0603" H 6350 4200 39  0001 C CNN
 F 2 "MAIN_PCB_LIB:R_0603" H 6400 4150 39  0001 C CNN
 F 3 "" H 6350 3800 39  0001 C CNN
 F 4 "10K" V 6309 3650 39  0000 C CNN "Waarde"
-F 5 "YAG1236CT-ND" H 6400 4250 39  0001 C CNN "Digi-key"
+F 5 "667-ERJ-UP3F1002V" H 0   0   50  0001 C CNN "Mouser"
 	1    6400 3650
 	1    0    0    -1  
 $EndComp
@@ -580,23 +472,7 @@ F 0 "U3" H 5850 3600 50  0000 L CNN
 F 1 "U_LM393N_NOPB" H 5550 4100 50  0001 L CNN
 F 2 "MAIN_PCB_LIB:U_TI_LM393N_NOPB" H 5550 4200 50  0001 L CNN
 F 3 "" H 5550 4300 50  0001 L CNN
-F 4 "Amplifiers" H 5550 4600 50  0001 L CNN "Comp Type"
-F 5 "Datasheet URL" H 5550 4700 50  0001 L CNN "Component Link 1 Description"
-F 6 "http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=LM393-N&fileType=pdf" H 5550 4800 50  0001 L CNN "Component Link 1 URL"
-F 7 "MDIP, .365 x .250 x .130in, 8 Lead, .100in Pitch" H 5550 5000 50  0001 L CNN "Package Description"
-F 8 "P0008A" H 5550 5100 50  0001 L CNN "Package Reference"
-F 9 "NSUZXYTTE#*LM*393N" H 5550 5200 50  0001 L CNN "Package Top Marking"
-F 10 "8" H 5550 5300 50  0001 L CNN "Pin Count"
-F 11 "N" H 5550 5400 50  0001 L CNN "Power Wise"
-F 12 "IC" H 5550 5500 50  0001 L CNN "category"
-F 13 "1156860" H 5550 5600 50  0001 L CNN "ciiva ids"
-F 14 "56c718e248e42434" H 5550 5700 50  0001 L CNN "library id"
-F 15 "TI National Semiconductor" H 5550 5800 50  0001 L CNN "manufacturer"
-F 16 "MS-001-BA" H 5550 5900 50  0001 L CNN "package"
-F 17 "1464069057" H 5550 6000 50  0001 L CNN "release date"
-F 18 "Yes" H 5550 6100 50  0001 L CNN "rohs"
-F 19 "5C587BB4-AF8A-4456-AC4A-BF04D6254C91" H 5550 6200 50  0001 L CNN "vault revision"
-F 20 "yes" H 5550 6300 50  0001 L CNN "imported"
+F 4 "926-LM393N/NOPB" H 0   0   50  0001 C CNN "Mouser"
 	2    5550 3700
 	1    0    0    -1  
 $EndComp
@@ -623,7 +499,7 @@ F 1 "R_1K_0603" H 2900 3000 50  0001 C CNN
 F 2 "MAIN_PCB_LIB:R_0603" H 3100 3070 50  0001 C CNN
 F 3 "" H 2850 2400 50  0001 C CNN
 F 4 "1K" V 2801 2550 50  0000 C CNN "Waarde"
-F 5 "311-1.0KDDKR-ND" H 3050 3150 50  0001 C CNN "Digi-Key"
+F 5 "667-ERJ-PB3D1001V" H 0   0   50  0001 C CNN "Mouser"
 	1    2900 2550
 	0    1    1    0   
 $EndComp
@@ -670,7 +546,7 @@ F 1 "R_10K_0603" H 4600 3500 39  0001 C CNN
 F 2 "MAIN_PCB_LIB:R_0603" H 4650 3450 39  0001 C CNN
 F 3 "" H 4600 3100 39  0001 C CNN
 F 4 "10K" V 4559 2950 39  0000 C CNN "Waarde"
-F 5 "YAG1236CT-ND" H 4650 3550 39  0001 C CNN "Digi-key"
+F 5 "667-ERJ-UP3F1002V" H 0   0   50  0001 C CNN "Mouser"
 	1    4650 2950
 	0    1    1    0   
 $EndComp
@@ -765,4 +641,32 @@ $EndComp
 Wire Wire Line
 	10050 2850 9800 2850
 Connection ~ 9800 2850
+Connection ~ 3950 2750
+$Comp
+L Main_Library:C_1.5uF_0603_25V C2
+U 1 1 616E24B6
+P 3800 2750
+F 0 "C2" V 3609 2750 39  0000 C CNN
+F 1 "C_1.5uF_0603_25V" H 3800 3000 39  0001 C CNN
+F 2 "MAIN_PCB_LIB:C_0603" H 3850 3100 39  0001 C CNN
+F 3 "" H 3700 2800 39  0001 C CNN
+F 4 "1.5uF" V 3684 2750 39  0000 C CNN "Waarde"
+F 5 "810-C1608X5R1E155K" H 3800 2750 50  0001 C CNN "Mouser"
+	1    3800 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L Main_Library:C_100nF_0603_25V C1
+U 1 1 61BF4078
+P 8100 2300
+F 0 "C1" H 8178 2346 50  0000 L CNN
+F 1 "C_100nF_0603_25V" H 8050 2650 50  0001 C CNN
+F 2 "MAIN_PCB_LIB:C_0603" H 8050 2650 50  0001 C CNN
+F 3 "" H 8100 2500 50  0001 C CNN
+F 4 "810-C0603X5R1E104KBB" H 8050 2600 50  0001 C CNN "Mouser"
+F 5 "100nF" H 8178 2255 50  0000 L CNN "Waarde"
+	1    8100 2300
+	1    0    0    -1  
+$EndComp
+Connection ~ 8100 2150
 $EndSCHEMATC

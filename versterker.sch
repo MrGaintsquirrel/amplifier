@@ -81,11 +81,11 @@ F 0 "D1" V 3050 4130 50  0000 L CNN
 F 1 "D_SMCJ9.0CA_TVS" H 2800 3855 50  0001 L BNN
 F 2 "MAIN_PCB_LIB:D_9V_TVS_SMCJ-Q" H 3100 4050 50  0001 L BNN
 F 3 "" H 3100 4050 50  0001 L BNN
-F 4 "IPC-7351B" H 3100 4050 50  0001 L BNN "STANDARD"
-F 5 "Diodes Incorporated" H 3100 4050 50  0001 L BNN "MANUFACTURER"
-F 6 "2.62mm" H 3100 4050 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
-F 7 "11/20/15" H 3100 4050 50  0001 L BNN "PARTREV"
-F 8 "576-SMCJ9.0CA" H 3100 4050 50  0001 C CNN "Mouser"
+F 4 "576-SMCJ9.0CA" H 3100 4050 50  0001 C CNN "Mouser"
+F 5 "Diodes Incorporated" H 0   0   50  0001 C CNN "MANUFACTURER"
+F 6 "2.62mm" H 0   0   50  0001 C CNN "MAXIMUM_PACKAGE_HEIGHT"
+F 7 "11/20/15" H 0   0   50  0001 C CNN "PARTREV"
+F 8 "IPC-7351B" H 0   0   50  0001 C CNN "STANDARD"
 	1    3100 4050
 	0    1    1    0   
 $EndComp
@@ -108,35 +108,7 @@ F 0 "D2" V 3846 3572 50  0000 R CNN
 F 1 "D_RED_0603_Wurth_150060RS75000" H 3500 4200 50  0001 L CNN
 F 2 "MAIN_PCB_LIB:D_RED_0603_Wurth" H 3500 4300 50  0001 L CNN
 F 3 "https://www.we-online.com/catalog/datasheet/150060RS75000.pdf" H 3500 4400 50  0001 L CNN
-F 4 "No" H 3500 4500 50  0001 L CNN "automotive"
-F 5 "Diode" H 3500 4600 50  0001 L CNN "category"
-F 6 "Red" V 3755 3572 50  0000 R CNN "colour"
-F 7 "Optoelectronics" H 3500 4800 50  0001 L CNN "device class L1"
-F 8 "LEDs" H 3500 4900 50  0001 L CNN "device class L2"
-F 9 "unset" H 3500 5000 50  0001 L CNN "device class L3"
-F 10 "LED RED CLEAR 0603 SMD" H 3500 5100 50  0001 L CNN "digikey description"
-F 11 "732-4978-1-ND" H 3500 5200 50  0001 L CNN "digikey part number"
-F 12 "20mA" H 3500 5300 50  0001 L CNN "forward current"
-F 13 "2V" H 3500 5400 50  0001 L CNN "forward voltage"
-F 14 "0.8mm" H 3500 5500 50  0001 L CNN "height"
-F 15 "Yes" H 3500 5600 50  0001 L CNN "lead free"
-F 16 "Top View" H 3500 5700 50  0001 L CNN "led orientation"
-F 17 "cd4e03a66a96d806" H 3500 5800 50  0001 L CNN "library id"
-F 18 "250mcd" H 3500 5900 50  0001 L CNN "luminous intensity"
-F 19 "Wurth" H 3500 6000 50  0001 L CNN "manufacturer"
-F 20 "+95°C" H 3500 6100 50  0001 L CNN "max junction temp"
-F 21 "Standard LEDs - SMD WL-SMCW SMDMono TpVw Waterclr 0603 Red" H 3500 6200 50  0001 L CNN "mouser description"
-F 22 "710-150060RS75000" H 3500 6300 50  0001 L CNN "mouser part number"
-F 23 "0603" H 3500 6400 50  0001 L CNN "package"
-F 24 "630nm" H 3500 6500 50  0001 L CNN "peak emmision wavelength"
-F 25 "72mW" H 3500 6600 50  0001 L CNN "power dissipation"
-F 26 "5V" H 3500 6700 50  0001 L CNN "reverse voltage"
-F 27 "Yes" H 3500 6800 50  0001 L CNN "rohs"
-F 28 "0mm" H 3500 6900 50  0001 L CNN "standoff height"
-F 29 "+85°C" H 3500 7000 50  0001 L CNN "temperature range high"
-F 30 "-40°C" H 3500 7100 50  0001 L CNN "temperature range low"
-F 31 "140°" H 3500 7200 50  0001 L CNN "viewing angle"
-F 32 "625nm" H 3500 7300 50  0001 L CNN "wavelength"
+F 4 "710-150060RS75000" H 3500 3700 50  0001 C CNN "Mouser"
 	1    3500 3700
 	0    1    1    0   
 $EndComp
@@ -167,7 +139,7 @@ F 1 "R_10K_0603" H 3450 4900 39  0001 C CNN
 F 2 "MAIN_PCB_LIB:R_0603" H 3500 4850 39  0001 C CNN
 F 3 "" H 3450 4500 39  0001 C CNN
 F 4 "10K" H 3553 4313 39  0000 L CNN "Waarde"
-F 5 "YAG1236CT-ND" H 3500 4950 39  0001 C CNN "Digi-key"
+F 5 "667-ERJ-UP3F1002V" H 0   0   50  0001 C CNN "Mouser"
 	1    3500 4350
 	1    0    0    -1  
 $EndComp

@@ -1,0 +1,1251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>D:\Users\Thijs\Documents\Haagse hogeschool\projecten\versterker\versterker git\versterker.sch</source>
+    <date>18-12-2021 16:33:55</date>
+    <tool>Eeschema (5.1.12)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>versterker.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Amplifier/" tstamps="/6152C63E/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>amplifier.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/555 timer/" tstamps="/6158BEDE/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>555 timer.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/VU-Meter/" tstamps="/616ED187/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>VU-Meter.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>J_Barreljack_3.5mm_Wurth_TH</value>
+      <footprint>MAIN_PCB_LIB:J_Barreljack_3.5mm_Wurth</footprint>
+      <fields>
+        <field name="Mouser">710-694102303002</field>
+      </fields>
+      <libsource lib="Main_Library" part="J_Barreljack_3.5mm_Wurth_TH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6176EC14</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>D_SMCJ9.0CA_TVS</value>
+      <footprint>MAIN_PCB_LIB:D_9V_TVS_SMCJ-Q</footprint>
+      <fields>
+        <field name="MANUFACTURER">Diodes Incorporated</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">2.62mm</field>
+        <field name="Mouser">576-SMCJ9.0CA</field>
+        <field name="PARTREV">11/20/15</field>
+        <field name="STANDARD">IPC-7351B</field>
+      </fields>
+      <libsource lib="Main_Library" part="D_SMCJ9.0CA_TVS" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61776F94</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>D_RED_0603_Wurth_150060RS75000</value>
+      <footprint>MAIN_PCB_LIB:D_RED_0603_Wurth</footprint>
+      <datasheet>https://www.we-online.com/catalog/datasheet/150060RS75000.pdf</datasheet>
+      <fields>
+        <field name="Mouser">710-150060RS75000</field>
+      </fields>
+      <libsource lib="Main_Library" part="D_RED_0603_Wurth_150060RS75000" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>617794CD</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>R_10K_0603</value>
+      <footprint>MAIN_PCB_LIB:R_0603</footprint>
+      <fields>
+        <field name="Mouser">667-ERJ-UP3F1002V</field>
+        <field name="Waarde">10K</field>
+      </fields>
+      <libsource lib="Main_Library" part="R_10K_0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61785BEF</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>U_TC4427M_Microchip</value>
+      <footprint>MAIN_PCB_LIB:U_8_DIP_TC4427CPA_Microchip</footprint>
+      <fields>
+        <field name="Mouser">579-TC4427ACPA</field>
+      </fields>
+      <libsource lib="Main_Library" part="U_TC4427M_Microchip" description=""/>
+      <sheetpath names="/Amplifier/" tstamps="/6152C63E/"/>
+      <tstamp>6168BC4F</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>C_4.7uF_0603_25V</value>
+      <footprint>Main_LIB:C_0603</footprint>
+      <fields>
+        <field name="Mouser">963-TMK107BBJ475KA-T</field>
+        <field name="Waarde">4.7uF</field>
+      </fields>
+      <libsource lib="Main_Library" part="C_4.7uF_0603_25V" description=""/>
+      <sheetpath names="/Amplifier/" tstamps="/6152C63E/"/>
+      <tstamp>6169E9C1</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>Q_IRFZ44NPBF_N-Channel_Infineon</value>
+      <footprint>MAIN_PCB_LIB:Q_IRFZ44NPBF_Infineon</footprint>
+      <datasheet>https://www.infineon.com/dgdl/irfz44npbf.pdf?fileId=5546d462533600a40153563b3a9f220d</datasheet>
+      <fields>
+        <field name="Mouser">942-IRFZ44NPBF</field>
+      </fields>
+      <libsource lib="Main_Library" part="Q_IRFZ44NPBF_N-Channel_Infineon" description=""/>
+      <sheetpath names="/Amplifier/" tstamps="/6152C63E/"/>
+      <tstamp>616ABF9A</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>Q_IRFZ44NPBF_N-Channel_Infineon</value>
+      <footprint>MAIN_PCB_LIB:Q_IRFZ44NPBF_Infineon</footprint>
+      <datasheet>https://www.infineon.com/dgdl/irfz44npbf.pdf?fileId=5546d462533600a40153563b3a9f220d</datasheet>
+      <fields>
+        <field name="Mouser">942-IRFZ44NPBF</field>
+      </fields>
+      <libsource lib="Main_Library" part="Q_IRFZ44NPBF_N-Channel_Infineon" description=""/>
+      <sheetpath names="/Amplifier/" tstamps="/6152C63E/"/>
+      <tstamp>616AF682</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>R_10K_0603</value>
+      <footprint>MAIN_PCB_LIB:R_0603</footprint>
+      <fields>
+        <field name="Mouser">667-ERJ-UP3F1002V</field>
+        <field name="Waarde">10K</field>
+      </fields>
+      <libsource lib="Main_Library" part="R_10K_0603" description=""/>
+      <sheetpath names="/Amplifier/" tstamps="/6152C63E/"/>
+      <tstamp>616DB073</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>R_10K_0603</value>
+      <footprint>MAIN_PCB_LIB:R_0603</footprint>
+      <fields>
+        <field name="Mouser">667-ERJ-UP3F1002V</field>
+        <field name="Waarde">10K</field>
+      </fields>
+      <libsource lib="Main_Library" part="R_10K_0603" description=""/>
+      <sheetpath names="/Amplifier/" tstamps="/6152C63E/"/>
+      <tstamp>616DCA56</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>C_390pF_0603_50V</value>
+      <footprint>MAIN_PCB_LIB:C_0603</footprint>
+      <fields>
+        <field name="Mouser">80-C0603C391K5R</field>
+        <field name="Waarde">390pF</field>
+      </fields>
+      <libsource lib="Main_Library" part="C_390pF_0603_50V" description=""/>
+      <sheetpath names="/Amplifier/" tstamps="/6152C63E/"/>
+      <tstamp>616E0308</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>U_LM393N_NOPB</value>
+      <footprint>MAIN_PCB_LIB:U_TI_LM393N_NOPB</footprint>
+      <fields>
+        <field name="Mouser">926-LM393N/NOPB</field>
+      </fields>
+      <libsource lib="Main_Library" part="U_LM393N_NOPB" description=""/>
+      <sheetpath names="/Amplifier/" tstamps="/6152C63E/"/>
+      <tstamp>617B6035</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>U_LM358AP_TI_DIP</value>
+      <footprint>MAIN_PCB_LIB:U_LM358AP_TI_DIP</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm358a.pdf</datasheet>
+      <fields>
+        <field name="Mouser">926-LM358N/NOPB</field>
+      </fields>
+      <libsource lib="Main_Library" part="U_LM358AP_TI_DIP" description=""/>
+      <sheetpath names="/Amplifier/" tstamps="/6152C63E/"/>
+      <tstamp>61AEADB8</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>R_10K_0603</value>
+      <footprint>MAIN_PCB_LIB:R_0603</footprint>
+      <fields>
+        <field name="Mouser">667-ERJ-UP3F1002V</field>
+        <field name="Waarde">10K</field>
+      </fields>
+      <libsource lib="Main_Library" part="R_10K_0603" description=""/>
+      <sheetpath names="/Amplifier/" tstamps="/6152C63E/"/>
+      <tstamp>61B5264E</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>J_2_screwterminal_2.54_282834-2</value>
+      <footprint>MAIN_PCB_LIB:J_2_screwterminal_2.54</footprint>
+      <fields>
+        <field name="Centerline_Pitch">2.54 mm[.1 in]</field>
+        <field name="Comment">282834-2</field>
+        <field name="EU_RoHS_Compliance">Compliant with Exemptions</field>
+        <field name="Mouser">571-282834-2</field>
+        <field name="Number_of_Positions">2</field>
+      </fields>
+      <libsource lib="Main_Library" part="J_2_screwterminal_2.54_282834-2" description=""/>
+      <sheetpath names="/Amplifier/" tstamps="/6152C63E/"/>
+      <tstamp>61B3AC0A</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>J_3.5mm_jack_SJ1-3523N</value>
+      <footprint>CUI_SJ1-3523N</footprint>
+      <fields>
+        <field name="Mouser">490-SJ1-3523N</field>
+      </fields>
+      <libsource lib="Main_Library" part="J_3.5mm_jack_SJ1-3523N" description=""/>
+      <sheetpath names="/Amplifier/" tstamps="/6152C63E/"/>
+      <tstamp>6158C0E7</tstamp>
+    </comp>
+    <comp ref="D15">
+      <value>D_1N4148WS_SOD323F_ONSEMI</value>
+      <footprint>MAIN_PCB_LIB:D_1N4148_SOD-323F_ONSEMI</footprint>
+      <fields>
+        <field name="Mouser">512-1N4148WS</field>
+      </fields>
+      <libsource lib="Main_Library" part="D_1N4148WS_SOD323F_ONSEMI" description=""/>
+      <sheetpath names="/Amplifier/" tstamps="/6152C63E/"/>
+      <tstamp>61B430F2</tstamp>
+    </comp>
+    <comp ref="D16">
+      <value>D_1N4148WS_SOD323F_ONSEMI</value>
+      <footprint>MAIN_PCB_LIB:D_1N4148_SOD-323F_ONSEMI</footprint>
+      <fields>
+        <field name="Mouser">512-1N4148WS</field>
+      </fields>
+      <libsource lib="Main_Library" part="D_1N4148WS_SOD323F_ONSEMI" description=""/>
+      <sheetpath names="/Amplifier/" tstamps="/6152C63E/"/>
+      <tstamp>61B4393A</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>R_10K_Potmeter</value>
+      <footprint>MAIN_PCB_LIB:R_TH_POT_P160series</footprint>
+      <fields>
+        <field name="Waarde">10K</field>
+      </fields>
+      <libsource lib="Main_Library" part="R_10K_Potmeter" description=""/>
+      <sheetpath names="/Amplifier/" tstamps="/6152C63E/"/>
+      <tstamp>61B4279F</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>R_10K_0603</value>
+      <footprint>MAIN_PCB_LIB:R_0603</footprint>
+      <fields>
+        <field name="Mouser">667-ERJ-UP3F1002V</field>
+        <field name="Waarde">10K</field>
+      </fields>
+      <libsource lib="Main_Library" part="R_10K_0603" description=""/>
+      <sheetpath names="/Amplifier/" tstamps="/6152C63E/"/>
+      <tstamp>61B56410</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>R_1K_0603</value>
+      <footprint>MAIN_PCB_LIB:R_0603</footprint>
+      <fields>
+        <field name="Mouser">667-ERJ-PB3D1001V</field>
+        <field name="Waarde">1K</field>
+      </fields>
+      <libsource lib="Main_Library" part="R_1K_0603" description=""/>
+      <sheetpath names="/Amplifier/" tstamps="/6152C63E/"/>
+      <tstamp>61B42280</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>R_60.4K_0603</value>
+      <footprint>MAIN_PCB_LIB:R_0603</footprint>
+      <fields>
+        <field name="Mouser">603-RT0603DRE0760K4L</field>
+        <field name="Waarde">60.4k</field>
+      </fields>
+      <libsource lib="Main_Library" part="R_60.4K_0603" description=""/>
+      <sheetpath names="/Amplifier/" tstamps="/6152C63E/"/>
+      <tstamp>61B58F6B</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>R_20K_0603</value>
+      <footprint>MAIN_PCB_LIB:R_0603</footprint>
+      <fields>
+        <field name="Mouser">603-RT0603FRE0720KL</field>
+        <field name="Waarde">20k</field>
+      </fields>
+      <libsource lib="Main_Library" part="R_20K_0603" description=""/>
+      <sheetpath names="/Amplifier/" tstamps="/6152C63E/"/>
+      <tstamp>61B68478</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>R_10K_0603</value>
+      <footprint>MAIN_PCB_LIB:R_0603</footprint>
+      <fields>
+        <field name="Mouser">667-ERJ-UP3F1002V</field>
+        <field name="Waarde">10K</field>
+      </fields>
+      <libsource lib="Main_Library" part="R_10K_0603" description=""/>
+      <sheetpath names="/Amplifier/" tstamps="/6152C63E/"/>
+      <tstamp>61B731FB</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>R_2K_0603</value>
+      <footprint>MAIN_PCB_LIB:R_0603</footprint>
+      <fields>
+        <field name="Mouser">603-RT0603BRD072KL</field>
+        <field name="Waarde">2K</field>
+      </fields>
+      <libsource lib="Main_Library" part="R_2K_0603" description=""/>
+      <sheetpath names="/Amplifier/" tstamps="/6152C63E/"/>
+      <tstamp>61B74CCE</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>L_22uH_RFS1113_coilcraft_TH</value>
+      <footprint>MAIN_PCB_LIB:L_RFS1113_coilcraft</footprint>
+      <fields>
+        <field name="Mouser">994-RFS1113-223ME</field>
+        <field name="Waarde">22uH</field>
+      </fields>
+      <libsource lib="Main_Library" part="L_22uH_RFS1113_coilcraft_TH" description=""/>
+      <sheetpath names="/Amplifier/" tstamps="/6152C63E/"/>
+      <tstamp>61B4E324</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>C_680nF_TH_450V</value>
+      <footprint>MAIN_PCB_LIB:C_ECWFD_Panasonic</footprint>
+      <fields>
+        <field name="Mouser">667-ECW-FD2W684J</field>
+        <field name="Waarde">680nF</field>
+      </fields>
+      <libsource lib="Main_Library" part="C_680nF_TH_450V" description=""/>
+      <sheetpath names="/Amplifier/" tstamps="/6152C63E/"/>
+      <tstamp>6170D4C2</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>C_680nF_TH_450V</value>
+      <footprint>MAIN_PCB_LIB:C_ECWFD_Panasonic</footprint>
+      <fields>
+        <field name="Mouser">667-ECW-FD2W684J</field>
+        <field name="Waarde">680nF</field>
+      </fields>
+      <libsource lib="Main_Library" part="C_680nF_TH_450V" description=""/>
+      <sheetpath names="/Amplifier/" tstamps="/6152C63E/"/>
+      <tstamp>61B7E07B</tstamp>
+    </comp>
+    <comp ref="L2">
+      <value>L_22uH_RFS1113_coilcraft_TH</value>
+      <footprint>MAIN_PCB_LIB:L_RFS1113_coilcraft</footprint>
+      <fields>
+        <field name="Mouser">994-RFS1113-223ME</field>
+        <field name="Waarde">22uH</field>
+      </fields>
+      <libsource lib="Main_Library" part="L_22uH_RFS1113_coilcraft_TH" description=""/>
+      <sheetpath names="/Amplifier/" tstamps="/6152C63E/"/>
+      <tstamp>61B7E089</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>C_1.5uF_0603_25V</value>
+      <footprint>MAIN_PCB_LIB:C_0603</footprint>
+      <fields>
+        <field name="Mouser">810-C1608X5R1E155K</field>
+        <field name="Waarde">1.5uF</field>
+      </fields>
+      <libsource lib="Main_Library" part="C_1.5uF_0603_25V" description=""/>
+      <sheetpath names="/Amplifier/" tstamps="/6152C63E/"/>
+      <tstamp>616E24B6</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>C_100nF_0603_25V</value>
+      <footprint>MAIN_PCB_LIB:C_0603</footprint>
+      <fields>
+        <field name="Mouser">810-C0603X5R1E104KBB</field>
+        <field name="Waarde">100nF</field>
+      </fields>
+      <libsource lib="Main_Library" part="C_100nF_0603_25V" description=""/>
+      <sheetpath names="/Amplifier/" tstamps="/6152C63E/"/>
+      <tstamp>61BF4078</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>U_555_timer</value>
+      <footprint>MAIN_PCB_LIB:U_LM555CN</footprint>
+      <libsource lib="Main_Library" part="U_555_timer" description=""/>
+      <sheetpath names="/555 timer/" tstamps="/6158BEDE/"/>
+      <tstamp>6158C04F</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>R_2K_0603</value>
+      <footprint>MAIN_PCB_LIB:R_0603</footprint>
+      <fields>
+        <field name="Mouser">603-RT0603BRD072KL</field>
+        <field name="Waarde">2K</field>
+      </fields>
+      <libsource lib="Main_Library" part="R_2K_0603" description=""/>
+      <sheetpath names="/555 timer/" tstamps="/6158BEDE/"/>
+      <tstamp>6158D370</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>C_1nF_0603_50V</value>
+      <footprint>MAIN_PCB_LIB:C_0603</footprint>
+      <fields>
+        <field name="Mouser">603-CC603MRX7R9BB102</field>
+        <field name="Waarde">1nF</field>
+      </fields>
+      <libsource lib="Main_Library" part="C_1nF_0603_50V" description=""/>
+      <sheetpath names="/555 timer/" tstamps="/6158BEDE/"/>
+      <tstamp>61590D9D</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>U_LM3914N-1_NOPB</value>
+      <footprint>MAIN_PCB_LIB:U_LM3914_TI_DIP</footprint>
+      <fields>
+        <field name="Mouser">926-LM3914N-1/NOPB</field>
+      </fields>
+      <libsource lib="Main_Library" part="U_LM3914N-1_NOPB" description=""/>
+      <sheetpath names="/VU-Meter/" tstamps="/616ED187/"/>
+      <tstamp>616F242F</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>R_3K16_0603</value>
+      <footprint>MAIN_PCB_LIB:R_0603</footprint>
+      <fields>
+        <field name="Mouser">603-RT0603BRD073K16L</field>
+        <field name="Waarde">3K16</field>
+      </fields>
+      <libsource lib="Main_Library" part="R_3K16_0603" description=""/>
+      <sheetpath names="/VU-Meter/" tstamps="/616ED187/"/>
+      <tstamp>61702C03</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>D_RED_0603_Wurth_150060RS75000</value>
+      <footprint>MAIN_PCB_LIB:D_RED_0603_Wurth</footprint>
+      <datasheet>https://www.we-online.com/catalog/datasheet/150060RS75000.pdf</datasheet>
+      <fields>
+        <field name="Mouser">710-150060RS75000</field>
+      </fields>
+      <libsource lib="Main_Library" part="D_RED_0603_Wurth_150060RS75000" description=""/>
+      <sheetpath names="/VU-Meter/" tstamps="/616ED187/"/>
+      <tstamp>617034F5</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>D_RED_0603_Wurth_150060RS75000</value>
+      <footprint>MAIN_PCB_LIB:D_RED_0603_Wurth</footprint>
+      <datasheet>https://www.we-online.com/catalog/datasheet/150060RS75000.pdf</datasheet>
+      <fields>
+        <field name="Mouser">710-150060RS75000</field>
+      </fields>
+      <libsource lib="Main_Library" part="D_RED_0603_Wurth_150060RS75000" description=""/>
+      <sheetpath names="/VU-Meter/" tstamps="/616ED187/"/>
+      <tstamp>6170B85D</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>D_RED_0603_Wurth_150060RS75000</value>
+      <footprint>MAIN_PCB_LIB:D_RED_0603_Wurth</footprint>
+      <datasheet>https://www.we-online.com/catalog/datasheet/150060RS75000.pdf</datasheet>
+      <fields>
+        <field name="Mouser">710-150060RS75000</field>
+      </fields>
+      <libsource lib="Main_Library" part="D_RED_0603_Wurth_150060RS75000" description=""/>
+      <sheetpath names="/VU-Meter/" tstamps="/616ED187/"/>
+      <tstamp>6170E54D</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>D_RED_0603_Wurth_150060RS75000</value>
+      <footprint>MAIN_PCB_LIB:D_RED_0603_Wurth</footprint>
+      <datasheet>https://www.we-online.com/catalog/datasheet/150060RS75000.pdf</datasheet>
+      <fields>
+        <field name="Mouser">710-150060RS75000</field>
+      </fields>
+      <libsource lib="Main_Library" part="D_RED_0603_Wurth_150060RS75000" description=""/>
+      <sheetpath names="/VU-Meter/" tstamps="/616ED187/"/>
+      <tstamp>617106DF</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>D_RED_0603_Wurth_150060RS75000</value>
+      <footprint>MAIN_PCB_LIB:D_RED_0603_Wurth</footprint>
+      <datasheet>https://www.we-online.com/catalog/datasheet/150060RS75000.pdf</datasheet>
+      <fields>
+        <field name="Mouser">710-150060RS75000</field>
+      </fields>
+      <libsource lib="Main_Library" part="D_RED_0603_Wurth_150060RS75000" description=""/>
+      <sheetpath names="/VU-Meter/" tstamps="/616ED187/"/>
+      <tstamp>61726FFC</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>D_RED_0603_Wurth_150060RS75000</value>
+      <footprint>MAIN_PCB_LIB:D_RED_0603_Wurth</footprint>
+      <datasheet>https://www.we-online.com/catalog/datasheet/150060RS75000.pdf</datasheet>
+      <fields>
+        <field name="Mouser">710-150060RS75000</field>
+      </fields>
+      <libsource lib="Main_Library" part="D_RED_0603_Wurth_150060RS75000" description=""/>
+      <sheetpath names="/VU-Meter/" tstamps="/616ED187/"/>
+      <tstamp>6172701F</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>D_RED_0603_Wurth_150060RS75000</value>
+      <footprint>MAIN_PCB_LIB:D_RED_0603_Wurth</footprint>
+      <datasheet>https://www.we-online.com/catalog/datasheet/150060RS75000.pdf</datasheet>
+      <fields>
+        <field name="Mouser">710-150060RS75000</field>
+      </fields>
+      <libsource lib="Main_Library" part="D_RED_0603_Wurth_150060RS75000" description=""/>
+      <sheetpath names="/VU-Meter/" tstamps="/616ED187/"/>
+      <tstamp>61727042</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>D_RED_0603_Wurth_150060RS75000</value>
+      <footprint>MAIN_PCB_LIB:D_RED_0603_Wurth</footprint>
+      <datasheet>https://www.we-online.com/catalog/datasheet/150060RS75000.pdf</datasheet>
+      <fields>
+        <field name="Mouser">710-150060RS75000</field>
+      </fields>
+      <libsource lib="Main_Library" part="D_RED_0603_Wurth_150060RS75000" description=""/>
+      <sheetpath names="/VU-Meter/" tstamps="/616ED187/"/>
+      <tstamp>61727065</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>D_RED_0603_Wurth_150060RS75000</value>
+      <footprint>MAIN_PCB_LIB:D_RED_0603_Wurth</footprint>
+      <datasheet>https://www.we-online.com/catalog/datasheet/150060RS75000.pdf</datasheet>
+      <fields>
+        <field name="Mouser">710-150060RS75000</field>
+      </fields>
+      <libsource lib="Main_Library" part="D_RED_0603_Wurth_150060RS75000" description=""/>
+      <sheetpath names="/VU-Meter/" tstamps="/616ED187/"/>
+      <tstamp>61735566</tstamp>
+    </comp>
+    <comp ref="D12">
+      <value>D_RED_0603_Wurth_150060RS75000</value>
+      <footprint>MAIN_PCB_LIB:D_RED_0603_Wurth</footprint>
+      <datasheet>https://www.we-online.com/catalog/datasheet/150060RS75000.pdf</datasheet>
+      <fields>
+        <field name="Mouser">710-150060RS75000</field>
+      </fields>
+      <libsource lib="Main_Library" part="D_RED_0603_Wurth_150060RS75000" description=""/>
+      <sheetpath names="/VU-Meter/" tstamps="/616ED187/"/>
+      <tstamp>61735589</tstamp>
+    </comp>
+    <comp ref="D13">
+      <value>D_1N4148WS_SOD323F_ONSEMI</value>
+      <footprint>MAIN_PCB_LIB:D_1N4148_SOD-323F_ONSEMI</footprint>
+      <fields>
+        <field name="Mouser">512-1N4148WS</field>
+      </fields>
+      <libsource lib="Main_Library" part="D_1N4148WS_SOD323F_ONSEMI" description=""/>
+      <sheetpath names="/VU-Meter/" tstamps="/616ED187/"/>
+      <tstamp>61BAA2D9</tstamp>
+    </comp>
+    <comp ref="D14">
+      <value>D_1N4148WS_SOD323F_ONSEMI</value>
+      <footprint>MAIN_PCB_LIB:D_1N4148_SOD-323F_ONSEMI</footprint>
+      <fields>
+        <field name="Mouser">512-1N4148WS</field>
+      </fields>
+      <libsource lib="Main_Library" part="D_1N4148WS_SOD323F_ONSEMI" description=""/>
+      <sheetpath names="/VU-Meter/" tstamps="/616ED187/"/>
+      <tstamp>61BAB237</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>R_10K_0603</value>
+      <footprint>MAIN_PCB_LIB:R_0603</footprint>
+      <fields>
+        <field name="Digi-key">YAG1236CT-ND</field>
+        <field name="Waarde">10K</field>
+      </fields>
+      <libsource lib="Main_Library" part="R_10K_0603" description=""/>
+      <sheetpath names="/VU-Meter/" tstamps="/616ED187/"/>
+      <tstamp>61BB845F</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>C_1.5uF_0603_25V</value>
+      <footprint>MAIN_PCB_LIB:C_0603</footprint>
+      <fields>
+        <field name="Mouser">810-C1608X5R1E155K</field>
+        <field name="Waarde">1.5uF</field>
+      </fields>
+      <libsource lib="Main_Library" part="C_1.5uF_0603_25V" description=""/>
+      <sheetpath names="/VU-Meter/" tstamps="/616ED187/"/>
+      <tstamp>61B8FF25</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>C_10uF_0603_16V</value>
+      <footprint>MAIN_PCB_LIB:C_0603</footprint>
+      <fields>
+        <field name="Mouser">187-CL10A106KO8NQNC</field>
+        <field name="Waarde">10uF</field>
+      </fields>
+      <libsource lib="Main_Library" part="C_10uF_0603_16V" description=""/>
+      <sheetpath names="/VU-Meter/" tstamps="/616ED187/"/>
+      <tstamp>61BF4ED5</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Main_Library" part="C_1.5uF_0603_25V">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_1.5uF_0603_25V</field>
+        <field name="Footprint">MAIN_PCB_LIB:C_0603</field>
+        <field name="Waarde">1.5uF</field>
+        <field name="Mouser">810-C1608X5R1E155K</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Main_Library" part="C_100nF_0603_25V">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_100nF_0603_25V</field>
+        <field name="Footprint">MAIN_PCB_LIB:C_0603</field>
+        <field name="Mouser">810-C0603X5R1E104KBB</field>
+        <field name="Waarde">100nF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Main_Library" part="C_10uF_0603_16V">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_10uF_0603_16V</field>
+        <field name="Footprint">MAIN_PCB_LIB:C_0603</field>
+        <field name="Waarde">10uF</field>
+        <field name="Mouser">187-CL10A106KO8NQNC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Main_Library" part="C_1nF_0603_50V">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_1nF_0603_50V</field>
+        <field name="Footprint">MAIN_PCB_LIB:C_0603</field>
+        <field name="Waarde">1nF</field>
+        <field name="Mouser">603-CC603MRX7R9BB102</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Main_Library" part="C_390pF_0603_50V">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_390pF_0603_50V</field>
+        <field name="Footprint">MAIN_PCB_LIB:C_0603</field>
+        <field name="Waarde">390pF</field>
+        <field name="Mouser">80-C0603C391K5R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Main_Library" part="C_4.7uF_0603_25V">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_4.7uF_0603_25V</field>
+        <field name="Footprint">Main_LIB:C_0603</field>
+        <field name="Waarde">4.7uF</field>
+        <field name="Mouser">963-TMK107BBJ475KA-T</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Main_Library" part="C_680nF_TH_450V">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_680nF_TH_450V</field>
+        <field name="Footprint">MAIN_PCB_LIB:C_ECWFD_Panasonic</field>
+        <field name="Waarde">680nF</field>
+        <field name="Mouser">667-ECW-FD2W684J</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Main_Library" part="D_1N4148WS_SOD323F_ONSEMI">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_1N4148WS_SOD323F_ONSEMI</field>
+        <field name="Footprint">MAIN_PCB_LIB:D_1N4148_SOD-323F_ONSEMI</field>
+        <field name="Mouser">512-1N4148WS</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="C" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Main_Library" part="D_RED_0603_Wurth_150060RS75000">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_RED_0603_Wurth_150060RS75000</field>
+        <field name="Footprint">MAIN_PCB_LIB:D_RED_0603_Wurth</field>
+        <field name="Mouser">710-150060RS75000</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CATHODE" type="passive"/>
+        <pin num="2" name="ANODE" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Main_Library" part="D_SMCJ9.0CA_TVS">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_SMCJ9.0CA_TVS</field>
+        <field name="Footprint">MAIN_PCB_LIB:D_9V_TVS_SMCJ-Q</field>
+        <field name="STANDARD">IPC-7351B</field>
+        <field name="MANUFACTURER">Diodes Incorporated</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">2.62mm</field>
+        <field name="PARTREV">11/20/15</field>
+        <field name="Mouser">576-SMCJ9.0CA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Main_Library" part="J_2_screwterminal_2.54_282834-2">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">J_2_screwterminal_2.54_282834-2</field>
+        <field name="Footprint">MAIN_PCB_LIB:J_2_screwterminal_2.54</field>
+        <field name="Number_of_Positions">2</field>
+        <field name="Centerline_Pitch">2.54 mm[.1 in]</field>
+        <field name="EU_RoHS_Compliance">Compliant with Exemptions</field>
+        <field name="Comment">282834-2</field>
+        <field name="Mouser">571-282834-2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Main_Library" part="J_3.5mm_jack_SJ1-3523N">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">J_3.5mm_jack_SJ1-3523N</field>
+        <field name="Footprint">CUI_SJ1-3523N</field>
+        <field name="Mouser">490-SJ1-3523N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Main_Library" part="J_Barreljack_3.5mm_Wurth_TH">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">J_Barreljack_3.5mm_Wurth_TH</field>
+        <field name="Footprint">MAIN_PCB_LIB:J_Barreljack_3.5mm_Wurth</field>
+        <field name="Mouser">710-694102303002</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Main_Library" part="L_22uH_RFS1113_coilcraft_TH">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_22uH_RFS1113_coilcraft_TH</field>
+        <field name="Footprint">MAIN_PCB_LIB:L_RFS1113_coilcraft</field>
+        <field name="Waarde">22uH</field>
+        <field name="Mouser">994-RFS1113-223ME</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Main_Library" part="Q_IRFZ44NPBF_N-Channel_Infineon">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_IRFZ44NPBF_N-Channel_Infineon</field>
+        <field name="Footprint">MAIN_PCB_LIB:Q_IRFZ44NPBF_Infineon</field>
+        <field name="Mouser">942-IRFZ44NPBF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GATE" type="unspc"/>
+        <pin num="2" name="DRAIN" type="unspc"/>
+        <pin num="3" name="SOURCE" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="Main_Library" part="R_10K_0603">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_10K_0603</field>
+        <field name="Footprint">MAIN_PCB_LIB:R_0603</field>
+        <field name="Waarde">10K</field>
+        <field name="Mouser">667-ERJ-UP3F1002V</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Main_Library" part="R_10K_Potmeter">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_10K_Potmeter</field>
+        <field name="Footprint">MAIN_PCB_LIB:R_TH_POT_P160series</field>
+        <field name="Waarde">10K</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="S" type="output"/>
+        <pin num="3" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Main_Library" part="R_1K_0603">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_1K_0603</field>
+        <field name="Footprint">MAIN_PCB_LIB:R_0603</field>
+        <field name="Waarde">1K</field>
+        <field name="Mouser">667-ERJ-PB3D1001V</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Main_Library" part="R_20K_0603">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_20K_0603</field>
+        <field name="Footprint">MAIN_PCB_LIB:R_0603</field>
+        <field name="Waarde">20k</field>
+        <field name="Mouser">603-RT0603FRE0720KL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Main_Library" part="R_2K_0603">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_2K_0603</field>
+        <field name="Footprint">MAIN_PCB_LIB:R_0603</field>
+        <field name="Mouser">603-RT0603BRD072KL</field>
+        <field name="Waarde">2K</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Main_Library" part="R_3K16_0603">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_3K16_0603</field>
+        <field name="Footprint">MAIN_PCB_LIB:R_0603</field>
+        <field name="mouser">603-RT0603BRD073K16L</field>
+        <field name="Waarde">3K16</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Main_Library" part="R_60.4K_0603">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_60.4K_0603</field>
+        <field name="Footprint">MAIN_PCB_LIB:R_0603</field>
+        <field name="Waarde">60.4k</field>
+        <field name="Mouser">603-RT0603DRE0760K4L</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Main_Library" part="U_555_timer">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">U_555_timer</field>
+        <field name="Footprint">MAIN_PCB_LIB:U_LM555CN</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="input"/>
+        <pin num="2" name="Trigger" type="input"/>
+        <pin num="3" name="Output" type="input"/>
+        <pin num="4" name="Reset" type="input"/>
+        <pin num="5" name="Con_Volt" type="input"/>
+        <pin num="6" name="Threshold" type="input"/>
+        <pin num="7" name="DIS" type="input"/>
+        <pin num="8" name="VCC" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Main_Library" part="U_LM358AP_TI_DIP">
+      <docs>http://www.ti.com/lit/ds/symlink/lm358a.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">U_LM358AP_TI_DIP</field>
+        <field name="Footprint">MAIN_PCB_LIB:U_LM358AP_TI_DIP</field>
+        <field name="Mouser">926-LM358N/NOPB</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1OUT" type="output"/>
+        <pin num="2" name="1IN-" type="input"/>
+        <pin num="3" name="1IN+" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="2IN+" type="input"/>
+        <pin num="6" name="2IN-" type="input"/>
+        <pin num="7" name="2OUT" type="output"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Main_Library" part="U_LM3914N-1_NOPB">
+      <docs>http://www.ti.com/lit/ds/symlink/lm3914.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">U_LM3914N-1_NOPB</field>
+        <field name="Footprint">MAIN_PCB_LIB:U_LM3914_TI_DIP</field>
+        <field name="Voltage - Supply">3V ~ 20V</field>
+        <field name="category">IC</field>
+        <field name="digikey description">IC DRIVER DOT BAR DISPLAY 18-DIP</field>
+        <field name="digikey part number">LM3914N-1/NOPB-ND</field>
+        <field name="ipc land pattern name">DIP794W46P254L2286H533Q18</field>
+        <field name="lead free">yes</field>
+        <field name="library id">d4e439a443ae1486</field>
+        <field name="manufacturer">Texas Instruments</field>
+        <field name="mouser part number">926-LM3914N-1/NOPB</field>
+        <field name="package">PDIP18</field>
+        <field name="rohs">yes</field>
+        <field name="temperature range high">+70°C</field>
+        <field name="temperature range low">0°C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="LED_NO.1" type="output"/>
+        <pin num="2" name="V-" type="power_in"/>
+        <pin num="3" name="V+" type="power_in"/>
+        <pin num="4" name="DIVIDER(LOW_END)" type="input"/>
+        <pin num="5" name="SIGNAL_INPUT" type="input"/>
+        <pin num="6" name="DIVIDER(HIGH_END)" type="input"/>
+        <pin num="7" name="REFERENCE_OUTPUT" type="output"/>
+        <pin num="8" name="REFERENCE_ADJUST" type="input"/>
+        <pin num="9" name="MODE_SELECT" type="input"/>
+        <pin num="10" name="LED_NO.10" type="output"/>
+        <pin num="11" name="LED_NO.9" type="output"/>
+        <pin num="12" name="LED_NO.8" type="output"/>
+        <pin num="13" name="LED_NO.7" type="output"/>
+        <pin num="14" name="LED_NO.6" type="output"/>
+        <pin num="15" name="LED_NO.5" type="output"/>
+        <pin num="16" name="LED_NO.4" type="output"/>
+        <pin num="17" name="LED_NO.3" type="output"/>
+        <pin num="18" name="LED_NO.2" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Main_Library" part="U_LM393N_NOPB">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">U_LM393N_NOPB</field>
+        <field name="Footprint">MAIN_PCB_LIB:U_TI_LM393N_NOPB</field>
+        <field name="Mouser">926-LM393N/NOPB</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUTA" type="output"/>
+        <pin num="2" name="INA-" type="input"/>
+        <pin num="3" name="INA+" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="INB+" type="input"/>
+        <pin num="6" name="INB-" type="input"/>
+        <pin num="7" name="OUTB" type="output"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Main_Library" part="U_TC4427M_Microchip">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">U_TC4427M_Microchip</field>
+        <field name="Footprint">MAIN_PCB_LIB:U_8_DIP_TC4427CPA_Microchip</field>
+        <field name="Mouser">579-TC4427ACPA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="unspc"/>
+        <pin num="2" name="IN_A" type="unspc"/>
+        <pin num="3" name="GND" type="unspc"/>
+        <pin num="4" name="IN_B" type="unspc"/>
+        <pin num="5" name="OUT_B" type="unspc"/>
+        <pin num="6" name="VDD" type="unspc"/>
+        <pin num="7" name="OUT_A" type="unspc"/>
+        <pin num="8" name="NC" type="unspc"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Main_Library">
+      <uri>C:/KicadLib/Kicad_lib/Main_Library.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="U6" pin="4"/>
+      <node ref="C5" pin="2"/>
+      <node ref="U2" pin="4"/>
+      <node ref="C1" pin="2"/>
+      <node ref="R5" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="J2" pin="1"/>
+      <node ref="J3" pin="1"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="R7" pin="2"/>
+      <node ref="R17" pin="2"/>
+      <node ref="U6" pin="8"/>
+      <node ref="C3" pin="2"/>
+      <node ref="D15" pin="A"/>
+      <node ref="R18" pin="1"/>
+      <node ref="U4" pin="3"/>
+      <node ref="D13" pin="A"/>
+      <node ref="C4" pin="2"/>
+      <node ref="U6" pin="2"/>
+      <node ref="D16" pin="C"/>
+      <node ref="J1" pin="3"/>
+      <node ref="R1" pin="2"/>
+      <node ref="D1" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="U3" pin="4"/>
+      <node ref="U5" pin="1"/>
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="2" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="3" name="/9V">
+      <node ref="U4" pin="6"/>
+      <node ref="U3" pin="8"/>
+      <node ref="U5" pin="4"/>
+      <node ref="U5" pin="8"/>
+      <node ref="R13" pin="1"/>
+      <node ref="U2" pin="8"/>
+      <node ref="C4" pin="1"/>
+      <node ref="D12" pin="2"/>
+      <node ref="C5" pin="1"/>
+      <node ref="D3" pin="2"/>
+      <node ref="D10" pin="2"/>
+      <node ref="D6" pin="2"/>
+      <node ref="D11" pin="2"/>
+      <node ref="D7" pin="2"/>
+      <node ref="U3" pin="8"/>
+      <node ref="R14" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="J1" pin="1"/>
+      <node ref="D4" pin="2"/>
+      <node ref="D8" pin="2"/>
+      <node ref="D5" pin="2"/>
+      <node ref="U6" pin="9"/>
+      <node ref="R4" pin="2"/>
+      <node ref="D9" pin="2"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="D2" pin="2"/>
+      <node ref="U6" pin="3"/>
+    </net>
+    <net code="4" name="/ampsignal">
+      <node ref="U3" pin="3"/>
+      <node ref="U2" pin="1"/>
+      <node ref="U3" pin="6"/>
+      <node ref="R9" pin="2"/>
+      <node ref="C9" pin="2"/>
+    </net>
+    <net code="5" name="/Triangle_wave">
+      <node ref="C7" pin="1"/>
+      <node ref="U3" pin="5"/>
+      <node ref="U5" pin="6"/>
+      <node ref="U5" pin="2"/>
+      <node ref="R15" pin="1"/>
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="6" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="7" name="Net-(D15-PadC)">
+      <node ref="D16" pin="A"/>
+      <node ref="R2" pin="1"/>
+      <node ref="D15" pin="C"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="8" name="Net-(C2-Pad2)">
+      <node ref="C2" pin="2"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="9" name="Net-(R6-Pad3)">
+      <node ref="R6" pin="3"/>
+    </net>
+    <net code="10" name="Net-(R14-Pad2)">
+      <node ref="U3" pin="7"/>
+      <node ref="U4" pin="4"/>
+      <node ref="R14" pin="2"/>
+    </net>
+    <net code="11" name="Net-(L1-Pad1)">
+      <node ref="Q1" pin="3"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="L1" pin="1"/>
+    </net>
+    <net code="12" name="Net-(C8-Pad1)">
+      <node ref="C8" pin="1"/>
+      <node ref="L2" pin="2"/>
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="13" name="Net-(C6-Pad1)">
+      <node ref="L1" pin="2"/>
+      <node ref="C6" pin="1"/>
+      <node ref="L2" pin="1"/>
+    </net>
+    <net code="14" name="Net-(C2-Pad1)">
+      <node ref="R8" pin="2"/>
+      <node ref="C2" pin="1"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="15" name="Net-(R13-Pad2)">
+      <node ref="R13" pin="2"/>
+      <node ref="U3" pin="1"/>
+      <node ref="U4" pin="2"/>
+    </net>
+    <net code="16" name="/Amplifier/L_channel">
+      <node ref="R2" pin="2"/>
+      <node ref="J2" pin="2"/>
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="17" name="Net-(R3-Pad1)">
+      <node ref="R9" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="18" name="Net-(C3-Pad1)">
+      <node ref="R8" pin="1"/>
+      <node ref="R3" pin="2"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="19" name="Net-(R4-Pad1)">
+      <node ref="R5" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="20" name="Net-(Q1-Pad1)">
+      <node ref="U4" pin="7"/>
+      <node ref="Q1" pin="1"/>
+    </net>
+    <net code="21" name="Net-(Q2-Pad1)">
+      <node ref="U4" pin="5"/>
+      <node ref="Q2" pin="1"/>
+    </net>
+    <net code="22" name="Net-(U4-Pad1)">
+      <node ref="U4" pin="1"/>
+    </net>
+    <net code="23" name="Net-(U4-Pad8)">
+      <node ref="U4" pin="8"/>
+    </net>
+    <net code="24" name="Net-(R15-Pad2)">
+      <node ref="U5" pin="3"/>
+      <node ref="R15" pin="2"/>
+    </net>
+    <net code="25" name="Net-(U5-Pad5)">
+      <node ref="U5" pin="5"/>
+    </net>
+    <net code="26" name="Net-(U5-Pad7)">
+      <node ref="U5" pin="7"/>
+    </net>
+    <net code="27" name="Net-(D11-Pad1)">
+      <node ref="U6" pin="12"/>
+      <node ref="D11" pin="1"/>
+    </net>
+    <net code="28" name="Net-(D7-Pad1)">
+      <node ref="U6" pin="11"/>
+      <node ref="D7" pin="1"/>
+    </net>
+    <net code="29" name="Net-(D12-Pad1)">
+      <node ref="U6" pin="10"/>
+      <node ref="D12" pin="1"/>
+    </net>
+    <net code="30" name="Net-(D6-Pad1)">
+      <node ref="U6" pin="13"/>
+      <node ref="D6" pin="1"/>
+    </net>
+    <net code="31" name="Net-(D10-Pad1)">
+      <node ref="D10" pin="1"/>
+      <node ref="U6" pin="14"/>
+    </net>
+    <net code="32" name="Net-(C1-Pad1)">
+      <node ref="D14" pin="C"/>
+      <node ref="R17" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="U6" pin="5"/>
+    </net>
+    <net code="33" name="Net-(R18-Pad2)">
+      <node ref="U6" pin="7"/>
+      <node ref="U6" pin="6"/>
+      <node ref="R18" pin="2"/>
+    </net>
+    <net code="34" name="Net-(C9-Pad1)">
+      <node ref="D13" pin="C"/>
+      <node ref="D14" pin="A"/>
+      <node ref="C9" pin="1"/>
+    </net>
+    <net code="35" name="Net-(D9-Pad1)">
+      <node ref="U6" pin="16"/>
+      <node ref="D9" pin="1"/>
+    </net>
+    <net code="36" name="Net-(D4-Pad1)">
+      <node ref="D4" pin="1"/>
+      <node ref="U6" pin="1"/>
+    </net>
+    <net code="37" name="Net-(D8-Pad1)">
+      <node ref="U6" pin="18"/>
+      <node ref="D8" pin="1"/>
+    </net>
+    <net code="38" name="Net-(D3-Pad1)">
+      <node ref="D3" pin="1"/>
+      <node ref="U6" pin="15"/>
+    </net>
+    <net code="39" name="Net-(D5-Pad1)">
+      <node ref="U6" pin="17"/>
+      <node ref="D5" pin="1"/>
+    </net>
+  </nets>
+</export>
